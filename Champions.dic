@@ -1,0 +1,138 @@
+#version 2
+#name champ
+#subs default
+
+#class add adc
+> Ashe
+> Caitlyn
+> Corki
+> Draven
+> Ezreal
+> Graves
+> Jinx
+> Kalista
+> Kog'Maw
+> Lucian
+> Miss Fortune
+> Sivir
+> Tristana
+> Twitch
+> Urgot
+> Varus
+> Vayne
+#class remove adc
+#class add jungle
+> Aatrox
+> Amumu
+> Elise
+> Evelynn
+> Fiddlesticks
+> Hecarim
+> Jarvan IV
+> Kha'Zix
+> Lee Sin
+> Master Yi
+> Nasus
+> Nautilus
+> Nocturne
+> Nunu
+> Olaf
+> Pantheon
+> Rammus
+> Rek'Sai
+> Sejuani
+> Shaco
+> Shyvana
+> Skarner
+> Udyr
+> Vi
+> Volibear
+> Warwick
+> Xin Zhao
+> Zac
+#class remove jungle
+#class add mid
+> Ahri
+> Akali
+> Anivia
+> Azir
+> Brand
+> Cassiopeia
+> Diana
+> Fizz
+> Galio
+> Gragas
+> Heimerdinger
+> Karthus
+> Kassadin
+> Katarina
+> LeBlanc
+> Lux
+> Malzahar
+> Orianna
+> Syndra
+> Talon
+> Twisted Fate
+> Veigar
+> Viktor
+> Xerath
+> Yasuo
+> Zed
+> Ziggs
+#class remove mid
+#class add support
+> Alistar
+> Annie
+> Bard
+> Blitzcrank
+> Braum
+> Janna
+> Karma
+> Leona
+> Lulu
+> Morgana
+> Nami
+> Sona
+> Soraka
+> Taric
+> Thresh
+> Vel'Koz
+> Zilean
+> Zyra
+#class remove support
+#class add top
+> Cho'Gath
+> Darius
+> Dr. Mundo
+> Fiora
+> Gangplank
+> Garen
+> Gnar
+> Irelia
+> Jax
+> Jayce
+> Kayle
+> Kennen
+> Lissandra
+> Malphite
+> Maokai
+> Mordekaiser
+> Nidalee
+> Poppy
+> Quinn
+> Renekton
+> Rengar
+> Riven
+> Rumble
+> Ryze
+> Shen
+> Singed
+> Sion
+> Swain
+> Teemo
+> Trundle
+> Tryndamere
+> Vladimir
+> Wukong
+> Yorick
+#class remove top
