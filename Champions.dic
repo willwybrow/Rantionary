@@ -5,69 +5,67 @@
 #class add adc
 > Ashe
 > Caitlyn
-> Corki
 > Draven
 > Ezreal
 > Graves
 > Jinx
 > Kalista
-> Kog'Maw
 > Lucian
 > Miss Fortune
 > Sivir
 > Tristana
 > Twitch
 > Urgot
-> Varus
 > Vayne
+  #class add mid
+  > Corki
+  > Varus
+  #class remove mid
+  #class add top
+  > Quinn
+  #class remove top
 #class remove adc
+
 #class add jungle
-> Aatrox
 > Amumu
 > Elise
 > Evelynn
 > Fiddlesticks
-> Hecarim
-> Jarvan IV
+> Gragas
 > Kha'Zix
 > Lee Sin
-> Master Yi
-> Nasus
-> Nautilus
 > Nocturne
 > Nunu
-> Olaf
-> Pantheon
 > Rammus
 > Rek'Sai
 > Sejuani
 > Shaco
-> Shyvana
 > Skarner
 > Udyr
 > Vi
-> Volibear
-> Warwick
-> Xin Zhao
 > Zac
+  #class add mid
+    #class add top
+    > Nidalee
+    #class remove top
+  #class remove mid
+  #class add top
+  > Jarvan IV
+  > Master Yi
+  > Pantheon
+  > Rengar
+  > Volibear
+  > Warwick
+  > Xin Zhao
+  #class remove top
 #class remove jungle
+
 #class add mid
 > Ahri
-> Akali
 > Anivia
 > Azir
-> Brand
-> Cassiopeia
-> Diana
-> Fizz
-> Galio
-> Gragas
-> Heimerdinger
-> Karthus
-> Kassadin
 > Katarina
 > LeBlanc
-> Lux
 > Malzahar
 > Orianna
 > Syndra
@@ -76,63 +74,107 @@
 > Veigar
 > Viktor
 > Xerath
-> Yasuo
 > Zed
 > Ziggs
+  #class add top
+  > Akali
+  > Cassiopeia
+  > Heimerdinger
+  > Karthus
+  > Kassadin
+  > Lissandra
+  > Mordekaiser
+  > Swain
+  > Yasuo
+    #class add jungle
+    > Kayle
+    #class remove jungle
+    #class add support
+    > Galio
+    #class remove support
+  #class remove top
+  #class add jungle
+  > Diana
+    #class add top
+    > Fizz
+    #class remove top
+  #class remove jungle
+  #class add adc
+  > Kog'Maw
+  #class remove adc
+  #class add support
+  > Annie
+  > Brand
+  > Lux
+  #class remove support
 #class remove mid
+
 #class add support
 > Alistar
-> Annie
 > Bard
 > Blitzcrank
 > Braum
 > Janna
-> Karma
 > Leona
-> Lulu
-> Morgana
 > Nami
 > Sona
 > Soraka
 > Taric
 > Thresh
-> Vel'Koz
-> Zilean
-> Zyra
+  #class add jungle
+  > Nautilus
+  #class remove jungle
+  #class add mid
+  > Karma
+  > Morgana
+  > Vel'Koz
+  > Zilean
+  > Zyra
+    #class add top
+    > Lulu
+    #class remove top
+  #class remove mid
 #class remove support
+
 #class add top
-> Cho'Gath
 > Darius
-> Dr. Mundo
 > Fiora
 > Gangplank
 > Garen
 > Gnar
 > Irelia
-> Jax
-> Jayce
-> Kayle
-> Kennen
-> Lissandra
-> Malphite
-> Maokai
-> Mordekaiser
-> Nidalee
-> Poppy
-> Quinn
+> Nasus
 > Renekton
-> Rengar
 > Riven
 > Rumble
-> Ryze
-> Shen
 > Singed
-> Sion
-> Swain
-> Teemo
-> Trundle
-> Tryndamere
-> Vladimir
-> Wukong
 > Yorick
+  #class add mid
+  > Cho'Gath
+  > Jayce
+  > Ryze
+  > Teemo
+  > Vladimir
+  #class remove mid
+  #class add jungle
+  > Aatrox
+  > Dr. Mundo
+  > Hecarim
+  > Jax
+  > Malphite
+  > Maokai
+  > Olaf
+  > Poppy
+  > Shen
+  > Shyvana
+  > Sion
+  > Trundle
+  > Tryndamere
+  > Wukong
+  #class remove jungle
+  #class add support
+    #class add mid
+    > Kennen
+    #class remove mid
+  #class remove support
 #class remove top
