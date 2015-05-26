@@ -1,0 +1,18 @@
+#version 2
+#name modal
+#subs simple not 
+
+> can/can't
+> may/may not
+> shall/shan't
+> will/won't
+> must/mustn't
+> had better/better not
+> ought to/ought not
+
+#class add preterite
+	> could/couldn't
+	> might/mightn't
+	> should/shouldn't
+	> would/wouldn't
+#class remove preterite
