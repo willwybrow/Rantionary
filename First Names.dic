@@ -1,6 +1,6 @@
 #version 2
 #name name
-#subs default abbr
+#subs default 
 
 #class add female
   > Alice
@@ -52,7 +52,6 @@
   > Tiffany
   > Tina
   > Valerie
-  > Varlerie
   > Vicki
 #class remove female
 
@@ -136,7 +135,7 @@
   > Balthasar
   > Bandele
   > Banji
-  > Barack/B
+  > Barack
   > Baraz
   > Barbod
   > Bardia
@@ -170,7 +169,7 @@
   > Bevis
   > Bian
   > Bill
-  > Billybob/B
+  > Billybob
   > Binda
   > Birch
   > Birungi
@@ -251,10 +250,10 @@
   > Clint
   > Clinton
   > Clive
-  > Cody/C
+  > Cody
   > Colby
   > Coleman
-  > Collin/C
+  > Collin
   > Colton
   > Conrad
   > Conroy
@@ -268,7 +267,7 @@
   > Crimson
   > Crosby
   > Dalton
-  > Danny/D
+  > Danny
   > Dareh
   > Darius
   > Darrel
@@ -326,7 +325,7 @@
   > Elmo
   > Elton
   > Elvin
-  > Elvis/E
+  > Elvis
   > Elwood
   > Emerson
   > Emmet
@@ -383,12 +382,12 @@
   > Harry
   > Ian
   > Jahan
-  > Jake/J
-  > Jamier/J
+  > Jake
+  > Jamier
   > Jeff
   > Jela
   > Jengo
-  > John/J
+  > John
   > Joshua
   > Justin
   > Kaawa
@@ -398,7 +397,7 @@
   > Kandoro
   > Kaveh
   > Kaysar
-  > Keith/K
+  > Keith
   > Ken
   > Kermit
   > Keto
@@ -411,24 +410,24 @@
   > Kumba
   > Kyle
   > Lee
-  > Louie/L
-  > Luke/L
+  > Louie
+  > Luke
   > Malcolm
   > Mani
   > Masih
-  > Max/M
+  > Max
   > Meghdad
   > Menelin
   > Michael
-  > Mickey/M
+  > Mickey
   > Milad
-  > Mitchell/M
-  > Moses/M
+  > Mitchell
+  > Moses
   > Nasha
   > Naveed
   > Navid
   > Nicholas
-  > Nick/N
+  > Nick
   > Nuru
   > Omeo
   > Onyx
@@ -441,19 +440,19 @@
   > Pouria
   > Quoba
   > Radwan
-  > Rex/R
+  > Rex
   > Rick
   > Robin
   > Roger
-  > Ronald/R
+  > Ronald
   > Roshan
   > Safari
   > Saman
   > Sardar
   > Sarmad
-  > Sasquatch/S
-  > Scott/S
-  > Sean/S
+  > Sasquatch
+  > Scott
+  > Sean
   > Shadan
   > Shahan
   > Shahin
@@ -461,16 +460,16 @@
   > Shapur
   > Sher
   > Shonuff
-  > Snuggles/S
-  > Stan/S
+  > Snuggles
+  > Stan
   > Steve
   > Taworri
   > Teangi
   > Thimba
   > Thono
   > Thor
-  > Tim/T
-  > Timmy/T
+  > Tim
+  > Timmy
   > Todd
   > Tom
   > Tony
@@ -478,13 +477,13 @@
   > Tyipa
   > Vanshay
   > Victor
-  > Vijay/V
+  > Vijay
   > Wilbur
   > William
   > Yamparti
   > Yarran
   > Yoyko
-  > Zachy/Z
+  > Zachy
 #class remove male
 
 #class add male?
