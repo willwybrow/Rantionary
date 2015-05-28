@@ -244,22 +244,62 @@
 
 #class add nationality
   > African/African heritage
-  > African-American/African-Americanness
+  > African-American/African-American heritage
+	> Albanian/Albanian heritage
   > American/American heritage
   > Australian/Australian heritage
+	> Argentinian/Argentinian heritage
+	> Belgian/Belgian heritage
+	> Brazilian/Brazilian heritage
   > British/British heritage
+	> Bosnian/Bosnian heritage
+	> Bulgarian/Bulgarian heritage
   > Canadian/Canadian heritage
+	> Chilean/Chilean heritage
   > Chinese/Chinese heritage
+	> Croatian/Croatian heritage
+	> Czech/Czech heritage
+	> Danish/Danish heritage
+	> Dutch/Dutch heritage
+	> Egyptian/Egyptian heritage
+	> Estonian/Estonian heritage
+	> Ethiopian/Ethiopian heritage
+	> Finnish/Finnish heritage
   > French/French heritage
   > German/German heritage
+	> Greek/Greek heritage
+	> Hungarian/Hungarian heritage
+	> Icelandic/Icelandic heritage
   > Irish/Irish heritage
+	> Indian/Indian heritage
   > Italian/Italian heritage
+	> Jamaican/Jamaican heritage
   > Japanese/Japanese heritage
+	> Kenyan/Kenyan heritage
   > Korean/Korean heritage
+	> Latvian/Latvian heritage
+	> Libyan/Libyan heritage
+	> Lithuanian/Lithuanian heritage
+	> Malaysian/Malaysian heritage
   > Mexican/Mexican heritage
+	> Moroccan/Moroccan heritage
+	> Nigerian/Nigerian heritage
   > Norwegian/Norwegian heritage
+	> Palestinian/Palestinian heritage
+	> Peruvian/Peruvian heritage
+	> Polish/Polish heritage
+	> Portuguese/Portuguese heritage
+	> Romanian/Romanian heritage
   > Russian/Russian heritage
+	> Rwandan/Rwandan heritage
+	> Serbian/Serbian heritag
+	> Slovakian/Slovakian heritage
   > Spanish/Spanish heritage
+	> Swedish/Swedish heritage
+	> Togolese/Togolese heritage
+	> Turkish/Turkish heritage
+	> Ukrainian/Ukrainian heritage
+	> Venezuela/Venezuelan heritage
 #class remove nationality
 
 #class add weather
