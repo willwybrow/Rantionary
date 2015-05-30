@@ -1,0 +1,410 @@
+#version 2
+#name transverb
+#subs simple ing ed s er pp noun
+
+#class add motion
+	#class add walk
+		> march/marching/marched/marches/marcher/marched/marching
+		> walk/walking/walked/walks/walker/walked/walking
+	#class remove walk
+
+	#class add vehicle
+		#class add animal
+			> fly/flying/flew/flies/flier/flown/flying
+			> ride/riding/rode/rides/rider/ridden/riding
+			> trot/trotting/trotted/trots/trotter/trotted/trotting
+		#class remove animal
+		> commandeer/commandeering/commandeered/commandeers/commandeerer/commandeered/commandeering
+		> crash/crashing/crashed/crashes/crasher/crashed/crashing
+		> cruise/cruising/cruised/cruises/cruiser/cruised/cruising
+		> drive/driving/drove/drives/driver/driven/driving
+		> pilot/piloting/piloted/pilots/pilot/piloted/piloting
+		> row/rowing/rowed/rows/rower/rowed/rowing
+		> sail/sailing/sailed/sails/sailor/sailed/sailing
+		> speed/speeding/sped/speeds/speeder/sped/speeding
+	#class remove vehicle
+
+#class remove motion
+
+#class add pose
+    > lay/laying/laid/lays/layer/laid/laying
+    > squat/squatting/squatted/squats/squatter/squatted/squatting
+    > stand/standing/stood/stands/stander/stood/standing
+#class remove pose
+
+#class add eat
+  > chew/chewing/chewed/chews/chewer/chewed/chewing
+  > eat/eating/ate/eats/eater/eaten/eating
+  > lick/licking/licked/licks/licker/licked/licking
+  > snort/snorting/snorted/snorts/snorter/snorted/snorting
+  > slurp/slurping/slurped/slurps/slurper/slurped/slurping
+	> swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
+#class remove eat
+
+#class add like
+	> like/liking/liked/likes/liker/liked/like
+	> need/needing/needed/needs/needer/needed/need
+	> want/wanting/wanted/wants/wanter/wanted/want
+	> adore/adoring/adored/adores/adorer/adored/adoration
+	> love/loving/loved/loves/lover/loved/love
+#class remove like
+
+#class add dislike
+	> hate/hating/hated/hates/hater/hated/hate
+	> loathe/loathing/loathed/loathes/loather/loathed/loathe
+	> dislike/disliking/disliked/dislikes/disliker/disliked/dislike
+	> despise/despising/despised/despises/despiser/despised/despise
+#class remove dislike
+	
+#class add movething
+	> blow/blowing/blew/blows/blower/blown/blowing
+	> crank/cranking/cranked/cranks/cranker/cranked/cranking
+	> eject/ejecting/ejected/ejects/ejector/ejected/ejection
+	> hurl/hurling/hurled/hurls/hurler/hurled/hurling
+	> pump/pumping/pumped/pumps/pumper/pumped/pumping
+	> stomp/stomping/stomped/stomps/stomper/stomped/stomping
+	> throw/throwing/threw/throws/thrower/thrown/throwing
+	> wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
+
+	#class add instrument
+		> move/moving/moved/moves/mover/moved/moving
+		> bang/banging/banged/bangs/banger/banged/banging
+		> roll/rolling/rolled/rolls/roller/rolled/rolling
+		> shake/shaking/shook/shakes/shaker/shaken/shaking
+		> shoot/shooting/shot/shoots/shooter/shot/shooting
+		> slam/slamming/slammed/slams/slammer/slammed/slamming
+		> staple/stapling/stapled/staples/stapler/stapled/stapling
+		> squish/squishing/squished/squishes/squisher/squished/squishing
+		> twang/twanging/twanged/twangs/twanger/twanged/twanging
+		> twist/twisting/twisted/twists/twister/twisted/twisting
+	#class remove instrument
+#class remove movething
+
+#class add culinary
+	#class add preparation
+		> cure/curing/cured/cures/curer/cured/curing
+		> jerk/jerking/jerked/jerks/jerker/jerked/jerking
+		> knead/kneading/kneaded/kneads/kneader/kneaded/kneading
+		> pickle/pickling/pickled/pickles/pickler/pickled/pickling
+		> salt/salting/salted/salts/salter/salted/salting
+		> stir/stirring/stirred/stirs/stirrer/stirred/stirring
+		> strain/straining/strained/strains/strainer/strained/straining
+		#class add instrument
+			> chop/chopping/chopped/chops/chopper/chopped/chopping
+			> dice/dicing/diced/dices/dicer/diced/dicing
+			> grate/grating/grated/grates/grater/grated/grating
+			> marinate/marinating/marinated/marinates/marinater/marinated/marination
+			> season/seasoning/seasoned/seasons/seasoner/seasoned/seasoning
+		#class remove instrument
+	#class remove preparation
+  #class add cooking
+		> bake/baking/baked/bakes/baker/baked/baking
+		> barbeque/barbequing/barbequed/barbeques/barbequer/barbequed/barbequing
+		> boil/boiling/boiled/boils/boiler/boiled/boiling
+		> broil/broiling/broiled/broils/broiler/broiled/broiling
+		> cook/cooking/cooked/cooks/cooker/cooked/cooking
+		> deep-fry/deep-frying/deep-fried/deep-fries/deep-frier/deep-fried/deep-frying
+		> fry/frying/fried/fries/frier/fried/frying
+		> grill/grilling/grilled/grills/griller/grilled/grilling
+		> smoke/smoking/smoked/smokes/smoker/smoked/smoking
+		> stew/stewing/stewed/stews/stewer/stewed/stewing
+		> toast/toasting/toasted/toasts/toaster/toasted/toasting
+	#class remove cooking
+#class remove culinary
+
+#class add liquid
+  > drain/draining/drained/drains/drainer/drained/draining
+  > drip/dripping/dripped/drips/dripper/dripped/dripping
+  > pour/pouring/poured/pours/pourer/poured/pouring
+  > spurt/spurting/spurted/spurts/spurter/spurted/spurting
+  > sputter/sputtering/sputtered/sputters/sputterer/sputtered/sputtering
+	#class add instrument
+		> jet-spray/jet-spraying/jet-sprayed/jet-sprays/jet-sprayer/jet-sprayed/jet-spraying
+		> lather/lathering/lathered/lathers/latherer/lathered/lathering
+		> paint/painting/painted/paints/painter/painted/painting
+		> shower/showering/showered/showers/showerer/showered/showering
+		> smear/smearing/smeared/smears/smearer/smeared/smearing
+		> splash/splashing/splashed/splashes/splasher/splashed/splashing
+		> splatter/splattering/splattered/splatters/splatterer/splattered/splattering
+		> spray/spraying/sprayed/sprays/sprayer/sprayed/spraying
+		> sprinkle/sprinkling/sprinkled/sprinkles/sprinkler/sprinkled/sprinkling
+		> squirt/squirting/squirted/squirts/squirter/squirted/squirting
+	#class remove instrument
+#class remove liquid
+
+#class add insert
+  > feed/feeding/fed/feeds/feeder/fed/feeding
+	> shove/shoving/shoved/shoves/shover/shoved/shoving
+  > inject/injecting/injected/injects/injector/injected/injection
+  > screw/screwing/screwed/screws/screwer/screwed/screwing
+  > stick/sticking/stuck/sticks/sticker/stuck/sticking
+  > wedge/wedging/wedged/wedges/wedger/wedged/wedging
+	#class add instrument
+    > ram/ramming/rammed/rams/rammer/rammed/ramming
+		> jam/jamming/jammed/jams/jammer/jammed/jamming
+    > cram/cramming/crammed/crams/crammer/crammed/cramming
+    > poke/poking/poked/pokes/poker/poked/poking
+    > prod/prodding/prodded/prods/prodder/prodded/prodding
+	#class remove instrument
+#class remove insert
+
+#class add political
+	> amend/amending/amended/amends/amender/amended/amendment
+	> elect/electing/elected/elects/electer/elected/election
+	> impeach/impeaching/impeached/impeaches/impeacher/impeached/impeachment
+	> inaugurate/inaugurating/inaugurated/inaugurates/inaugurater/inaugurated/inauguration
+	> ratify/ratifying/ratified/ratifies/ratifier/ratified/ratification
+	> veto/vetoing/vetoed/vetoes/vetoer/vetoed/vetoing
+#class remove political
+
+#class add legal
+	> apprehend/apprehending/apprehended/apprehends/apprehender/apprehended/apprehension
+	> abolish/abolishing/abolished/abolishes/abolisher/abolished/abolishment
+  > convict/convicting/convicted/convicts/convicter/convicted/conviction
+  > legalize/legalizing/legalized/legalizes/legalizer/legalized/legalization
+  > prosecute/prosecuting/prosecuted/prosecutes/prosecuter/prosecuted/prosecution
+  > sue/suing/sued/sues/suer/sued/suing
+ #class remove legal
+
+#class add groom
+	> bathe/bathing/bathed/bathes/bather/bathed/bathing
+	> clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
+	> groom/grooming/groomed/grooms/groomer/groomed/grooming
+	> preen/preening/preened/preens/preener/preened/preening
+	> sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization
+	> shave/shaving/shaved/shaves/shaver/shaved/shaving
+	#class add instrument
+		> gargle/gargling/gargled/gargles/gargler/gargled/gargling
+		> massage/massaging/massaged/massages/massager/massaged/massage
+		> moisten/moistening/moistened/moistens/moistener/moistened/moisturization
+		> oil/oiling/oiled/oils/oiler/oiled/oiling
+		> pluck/plucking/plucked/plucks/plucker/plucked/plucking
+		> rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing
+		> scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing
+		> soak/soaking/soaked/soaks/soaker/soaked/soaking
+	#class remove instrument
+#class remove groom
+
+> breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
+> fume/fuming/fumed/fumes/fumer/fumed/fuming
+> pray/praying/prayed/prays/prayer/prayed/prayer
+> hiccup/hiccuping/hiccuped/hiccups/hiccuper/hiccuped/hiccuping
+> moan/moaning/moaned/moans/moaner/moaned/moaning
+> rattle/rattling/rattled/rattles/rattler/rattled/rattling
+> rot/rotting/rotted/rots/rotter/rotten/rotting
+> rustle/rustling/rustled/rustles/rustler/rustled/rustling
+> scorch/scorching/scorched/scorches/scorcher/scorched/scorching
+> spelunk/spelunking/spelunked/spelunks/spelunker/spelunked/spelunking
+> tinkle/tinkling/tinkled/tinkles/tinkler/tinkled/tinkling
+> vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration
+
+> crunch/crunching/crunched/crunches/cruncher/crunched/crunching
+> force/forcing/forced/forces/forcer/forced/forcing
+> kiss/kissing/kissed/kisses/kisser/kissed/kissing
+> sniff/sniffing/sniffed/sniffs/sniffer/sniffed/sniffing
+> waste/wasting/wasted/wastes/waster/wasted/wasting
+> yank/yanking/yanked/yanks/yanker/yanked/yanking
+
+> click/clicking/clicked/clicks/clicker/clicked/clicking
+> cultivate/cultivating/cultivated/cultivates/cultivater/cultivated/cultivation
+> draft/drafting/drafted/drafts/drafter/drafted/drafting
+> dry-freeze/dry-freezing/dry-froze/dry-freezes/dry-freezer/dry-frozen/dry-freezing
+> extend/extending/extended/extends/extender/extended/extending
+> extrapolate/extrapolating/extrapolated/extrapolates/extrapolator/extrapolated/extrapolation
+> iron/ironing/ironed/irons/ironer/ironed/ironing
+> mist/misting/misted/mists/mister/misted/misting
+> misuse/misusing/misused/misuses/misuser/misused/misuse
+> organize/organizing/organized/organizes/organizer/organized/organization
+> pillage/pillaging/pillaged/pillages/pillager/pillaged/pillaging
+> probe/probing/probed/probes/proper/probed/probing
+> puff/puffing/puffed/puffs/puffer/puffed/puffing
+> quantify/quantifying/quantified/quantifies/quantifier/quantified/quantification
+> recycle/recycling/recycled/recycles/recycler/recycled/recycling
+> scold/scolding/scolded/scolds/scolder/scolded/scolding
+> scrunch/scrunching/scrunched/scrunches/scruncher/scrunched/scrunching
+> squelch/squelching/squelched/squelches/squelcher/squelched/squelching
+> streamline/streamlining/streamlined/streamlines/streamliner/streamlined/streamlining
+> suckle/suckling/suckled/suckles/suckler/suckled/suckling
+> superglue/supergluing/superglued/superglues/supergluer/superglued/supergluing
+> swipe/swiping/swiped/swipes/swiper/swiped/swiping
+> tape/taping/taped/tapes/taper/taped/taping
+> toke/toking/toked/tokes/toker/toked/toking
+> tune/tuning/tuned/tunes/tuner/tuned/tunings
+> uproot/uprooting/uprooted/uproots/uprooter/uprooted/uprooting
+> withdraw/withdrawing/withdrew/withdraws/withdrawer/withdrawn/withdrawing
+> wrinkle/wrinkling/wrinkled/wrinkles/wrinkler/wrinkled/wrinkling
+> zip/zipping/zipped/zips/zipper/zipped/zipping
+
+> authenticate/authenticating/authenticated/authenticates/authenticator/authenticated/authentication
+> chill/chilling/chilled/chills/chiller/chilled/chilling
+> conserve/conserving/conserved/conserves/conserver/conserved/conservation
+> customize/customizing/customized/customizes/customizer/customized/customization
+> donate/donating/donated/donates/donater/donated/donation
+> dramatize/dramatizing/dramatized/dramatizes/dramatizer/dramatized/dramatization
+> forecast/forecasting/forecasted/forecasts/forecaster/forecasted/forecasting
+> hoist/hostng/hoisted/hoists/hoister/hoisted/hoisting
+> jingle/jingling/jingled/jingles/jingler/jingled/jingling
+> lecture/lecturing/lectured/lectures/lecturer/lectured/lecturing
+> petition/petitioning/petitioned/petitions/petitioner/petitioned/petitioning
+> report/reporting/reported/reports/reporter/reported/reporting
+
+#class add instrument
+> dig/digging/dug/digs/digger/dug/digging
+> fiddle/fiddling/fiddled/fiddles/fiddler/fiddled/fiddling
+> plaster/plastering/plastered/plasters/plasterer/plastered/plastering
+> snuggle/snuggling/snuggled/snuggles/snuggler/snuggled/snuggling
+
+> bathe/bathing/bathed/bathes/bather/bathed/bathing
+> burn/burning/burned/burns/burner/burnt/burning
+> freeze/freezing/froze/freezes/freezer/frozen/freezing
+> plunge/plunging/plunged/plunges/plunger/plunged/plunging
+> push/pushing/pushed/pushes/pusher/pushed/pushing
+> sculpt/sculpting/sculpted/sculpts/sculptor/sculpted/sculpture
+
+> cuddle/cuddling/cuddled/cuddles/cuddler/cuddled/cuddling
+> cut/cutting/cut/cuts/cutter/cut/cutting
+> flatten/flattening/flattened/flattens/flattener/flattened/flattening
+> flick/flicking/flicked/flicks/flicker/flicked/flicking
+> press/pressing/pressed/presses/presser/pressed/pressing
+> pull/pulling/pulled/pulls/puller/pulled/pulling
+> rip/ripping/ripped/rips/ripper/ripped/ripping
+> serve/serving/served/serves/server/served/serving
+> sharpen/sharpening/sharpened/sharpens/sharpener/sharpened/sharpening
+> smack/smacking/smacked/smacks/smacker/smacked/smacking
+> soak/soaking/soaked/soaks/soaker/soaked/soaking
+
+> blast/blasting/blasted/blasts/blaster/blasted/blasting
+> caress/caressing/caressed/caresses/caresser/caressed/caressing
+> clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
+> clip/clipping/clipped/clips/clipper/clipped/clipping
+> crumple/crumpling/crumpled/crumples/crumpler/crumpled/crumpling
+> crush/crushing/crushed/crushes/crusher/crushed/crushing
+> discipline/disciplining/disciplined/disciplines/discipliner/disciplined/discipline
+> dishonor/dishonoring/dishonored/dishonors/dishonorer/dishonored/dishonoring
+> eliminate/eliminating/eliminated/eliminates/eliminater/eliminated/elimination
+> embrace/embracing/embraced/embraces/embracer/embraced/embrace
+> examine/examining/examined/examines/examiner/examined/examination
+> exploit/exploiting/exploited/exploits/exploiter/exploited/exploitation
+> extrude/extruding/extruded/extrudes/extruder/extruded/extruding
+> fight/fighting/fought/fights/fighter/fighted/fighting
+> flap/flapping/flapped/flaps/flapper/flapped/flapping
+> gargle/gargling/gargled/gargles/gargler/gargled/gargling
+> glue/gluing/glued/glues/gluer/glued/gluing
+> grind/grinding/grinded/grinds/grinder/ground/grinding
+> grip/gripping/gripped/grips/gripper/gripped/gripping
+> handle/handling/handled/handles/handler/handled/handling
+> hug/hugging/hugged/hugs/hugger/hugged/hugging
+> hunt/hunting/hunted/hunts/hunter/hunted/hunting
+> hypnotize/hypnotizing/hypnotized/hypnotizes/hypnotist/hypnotized/hypnosis
+> infest/infesting/infested/infests/infester/infested/infestation
+> invigorate/invigorating/invigorated/invigorates/invigorator/invigorated/invigoration
+> kill/killing/killed/kills/killer/killed/killing
+> loosen/loosening/loosened/loosens/loosener/loosened/loosening
+> manipulate/manipulating/manipulated/manipulates/manipulator/manipulated/manipulation
+> massage/massaging/massaged/massages/massager/massaged/massage
+> penetrate/penetrating/penetrated/penetrates/penetrator/penetrated/penetration
+> polish/polishing/polished/polishes/polisher/polished/polishing
+> pop/popping/popped/pops/popper/popped/popping
+> punish/punishing/punished/punishes/punisher/punished/punishment
+> slit/slitting/slit/slits/slitter/slit/slitting
+> squeeze/squeezing/squeezed/squeezes/squeezer/squeezed/squeezing
+> stimulate/stimulating/stimulated/stimulates/stimulator/stimulated/stimulation
+> strike/striking/struck/strikes/striker/stricken/striking
+> stuff/stuffing/stuffed/stuffs/stuffer/stuffed/stuffing
+> tap/tapping/tapped/taps/tapper/tapped/tapping
+> tighten/tightening/tightened/tightens/tightener/tightened/tightening
+> touch/touching/touched/touches/toucher/touched/touching
+> transcribe/transcribing/transcribed/transcribes/transcriber/transcribed/transcribing
+
+> bless/blessing/blessed/blesses/blesser/blessed/blessing
+> decorate/decorating/decorated/decorates/decorator/decorated/decoration
+> jimmy/jimmying/jimmied/jimmies/jimmier/jimmied/jimmying
+> liquidate/liquidating/liquidated/liquidates/liquidator/liquidated/liquidation
+> purify/purifying/purified/purifies/purifier/purified/purification
+> rapture/rapturing/raptured/raptures/rapturer/raptured/rapture
+#class remove instrument
+
+#class add violent
+	> abduct/abducting/abducted/abducts/abductor/abducted/abduction
+  > bite/biting/bit/bites/biter/bitten/biting
+> choke/choking/choked/chokes/choker/choked/choking
+  > cremate/cremating/cremated/cremates/cremater/cremated/cremation
+  > dangle/dangling/dangled/dangles/dangler/dangled/dangling
+  > grab/grabbing/grabbed/grabs/grabber/grabbed/grabbing
+  > hang/hanging/hung/hangs/hanger/hanged/hanging
+  > harass/harassing/harassed/harasses/harasser/harassed/harassment
+  > headbutt/headbutting/headbutted/headbutts/headbutter/headbutted/headbutting
+  > implode/imploding/imploded/implodes/imploder/imploded/implosion
+	> kick/kicking/kicked/kicks/kicker/kicked/kicking
+  > kidnap/kidnapping/kidnapped/kidnaps/kidnapper/kidnapped/kidnapping
+  > manhandle/manhandling/manhandled/manhandles/manhandler/manhandled/manhandling
+  > nab/nabbing/nabbed/nabs/nabber/nabbed/nabbing
+  > nail/nailing/nailed/nails/nailer/nailed/nailing
+  > nip/nipping/nipped/nips/nipper/nipped/nipping
+  > pinch/pinching/pinched/pinches/pincher/pinched/pinching
+  > pluck/plucking/plucked/plucks/plucker/plucked/plucking
+  > punch/punching/punched/punches/puncher/punched/punching
+  > rob/robbing/robbed/robs/robber/robbed/robbery
+  > shatter/shattering/shattered/shatters/shatterer/shattered/shattering
+  > shove/shoving/shoved/shoves/shover/shoved/shoving
+  > slash/slashing/slashed/slashes/slasher/slashed/slashing
+  > snip/snipping/snipped/snips/snipper/snipped/snipping
+  > strangle/strangling/strangled/strangles/strangler/strangled/strangulation
+  > throttle/throttling/throttled/throttles/throttler/throttled/throttling
+  > vomit/vomiting/vomited/vomits/vomiter/vomited/vomiting
+	#class add instrument
+		> amputate/amputating/amputated/amputates/amputator/amputated/amputation
+		> assault/assaulting/assaulted/assaults/assaulter/assaulted/assault
+		> attack/attacking/attacked/attacks/attacker/attacked/attack
+		> behead/beheading/beheaded/beheads/beheader/beheaded/beheading
+		> bind/binding/bound/binds/binder/bound/binding
+		> bludgeon/bludgeoning/bludgeoned/bludgeons/bludgeoner/bludgeoned/bludgeoning
+		> cripple/crippling/crippled/cripples/crippler/crippled/crippling
+		> decapitate/decapitating/decapitated/decapitates/decapitater/decapitated/decapitation
+		> dissect/dissecting/dissected/dissects/dissector/dissected/dissection
+		> dominate/dominating/dominated/dominates/dominator/dominated/domination
+		> electrocute/electrocuting/electrocuted/electrocutes/electrocuter/electrocuted/electrocution
+		> explode/exploding/exploded/explodes/exploder/exploded/explosion
+		> gouge/gouging/gouged/gouges/gouger/gouged/gouging
+		> hammer/hammering/hammered/hammers/hammerer/hammered/hammering
+		> impale/impaling/impaled/impales/impaler/impaled/impalement
+		> injure/injuring/injured/injures/injurer/injured/injury
+		> liquefy/liquefying/liquefied/liquefies/liquefier/liquefied/liquefication
+		> maim/maiming/maimed/maims/maimer/maimed/maiming
+		> mangle/mangling/mangled/mangles/mangler/mangled/mangling
+		> maul/mauling/mauled/mauls/mauler/mauled/mauling
+		> mutilate/mutilating/mutilated/mutilates/mutilater/mutilated/mutilation
+		> pierce/piercing/pierced/pierces/piercer/pierced/piercing
+		> scratch/scratching/scratched/scratches/scratcher/scratched/scratching
+		> shred/shredding/shredded/shreds/shredder/shredded/shredding
+		> skewer/skewering/skewered/skewers/skewerer/skewered/skewering
+		> slap/slapping/slapped/slaps/slapper/slapped/slapping
+		> spank/spanking/spanked/spanks/spanker/spanked/spanking
+		> stab/stabbing/stabbed/stabs/stabber/stabbed/stabbing
+		> tickle/tickling/tickled/tickles/tickler/tickled/tickling
+		> vaporize/vaporizing/vaporized/vaporizes/vaporizer/vaporized/vaporization
+		> whip/whipping/whipped/whips/whipper/whipped/whipping
+	#class remove instrument
+#class remove violent
+
+#nsfw
+> erect/erecting/erected/erects/erector/erected/erection
+> ejaculate/ejaculating/ejaculated/ejaculates/ejaculator/ejaculated/ejaculation
+> please/pleasing/pleased/pleases/pleaser/pleasted/pleasing
+> piss/pissing/pissed/pisses/pisser/pissed/pissing
+> thrust/thrusting/thrust/thrusts/thruster/thrusted/thrusting
+> mount/mounting/mounted/mounts/mounter/mounted/mounting
+> fellate/fellating/fellated/fellates/fellater/fellated/fellatio
+> titfuck/titfucking/titfucked/titucks/titfucker/titfucked/titfucking
+> gyrate/gyrating/gyrated/gyrates/gyrator/gyrated/gyration
+> grope/groping/groped/gropes/groper/groped/groping
+> twerk/twerking/twerked/twerks/twerker/twerked/twerking
+> defecate/defecating/defecated/defecates/defecator/defecated/defecation
+> urinate/urinating/urinated/urinates/urinator/urinated/urination
+> finger/fingering/fingered/fingers/fingerer/fingered/fingering
+#class instrument
+	> fertilize/fertilizing/fertilized/fertilizes/fertilizer/fertilized/fertilization
+	> fuck/fucking/fucked/fucks/fucker/fucked/fucking
+	> masturbate/masturbating/masturbated/masturbates/masturbator/masturbated/masturbation
+#class remove instrument
+#sfw

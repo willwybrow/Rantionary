@@ -1,0 +1,159 @@
+#version 2
+#name intransverb
+#subs simple ing ed s er pp noun
+
+#class add motion
+	#class add walk
+		> crawl/crawling/crawled/crawls/crawler/crawled/crawling
+		> march/marching/marched/marches/marcher/marched/marching
+		> perambulate/perambulating/perambulated/perambulates/perambulator/perambulated/perambulation
+		> sleepwalk/sleepwalking/sleepwalked/sleepwalks/sleepwalker/sleepwalked/sleepwalking
+		> snoop/snooping/snooped/snoops/snooper/snooped/snooping
+		> strut/strutting/strutted/struts/strutter/strutted/strutting
+		> tiptoe/tiptoeing/tiptoed/tiptoes/tiptoer/tiptoed/tiptoeing
+		> vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration
+		> waddle/waddling/waddled/woddles/woddler/waddled/waddling
+		> walk/walking/walked/walks/walker/walked/walking
+		> wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
+		#class add run
+			> gallop/galloping/galloped/gallops/galloper/galloped/galloping
+			> run/running/ran/runs/runner/run/running
+			> skip/skipping/skipped/skips/skipper/skipped/skipping
+			> sprint/sprinting/sprinted/sprints/sprinter/sprinted/sprinting
+			> stampede/stampeding/stampeded/stampedes/stampeder/stampeded/stampeding
+		#class remove run 
+	#class remove walk
+
+	#class add vehicle
+		#class add animal
+			> fly/flying/flew/flies/flier/flown/flying
+			> ride/riding/rode/rides/rider/ridden/riding
+			> trot/trotting/trotted/trots/trotter/trotted/trotting
+		#class remove animal
+		> cruise/cruising/cruised/cruises/cruiser/cruised/cruising
+		> drive/driving/drove/drives/driver/driven/driving
+		> pilot/piloting/piloted/pilots/pilot/piloted/piloting
+		> row/rowing/rowed/rows/rower/rowed/rowing
+		> sail/sailing/sailed/sails/sailor/sailed/sailing
+		> speed/speeding/sped/speeds/speeder/sped/speeding
+	#class remove vehicle
+#class remove motion
+
+#class add pose
+    > crouch/crouching/crouched/crouches/croucher/crouched/crouching
+    > lay/laying/laid/lays/layer/laid/laying
+    > sit/sitting/sat/sits/sitter/sat/sitting
+		> slip/slipping/slipped/slips/slipper/slipped/slipping
+		> slouch/slouching/slouched/slouches/sloucher/slouched/slouching
+    > squat/squatting/squatted/squats/squatter/squatted/squatting
+    > stand/standing/stood/stands/stander/stood/standing
+		> tremble/trembling/trembled/trembles/trembler/trembled/trembling
+		> twist/twisting/twisted/twists/twister/twisted/twisting
+		> wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
+#class remove pose
+
+#class add eat
+    > masticate/masticating/masticated/masticates/masticater/masticated/mastication
+    > chew/chewing/chewed/chews/chewer/chewed/chewing
+    > eat/eating/ate/eats/eater/eaten/eating
+		> gargle/gargling/gargled/gargles/gargler/gargled/gargling
+    > slurp/slurping/slurped/slurps/slurper/slurped/slurping
+		> swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
+#class remove eat
+
+#class add groom
+	> bathe/bathing/bathed/bathes/bather/bathed/bathing
+	> clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
+	> gargle/gargling/gargled/gargles/gargler/gargled/gargling
+	> groom/grooming/groomed/grooms/groomer/groomed/grooming
+	> massage/massaging/massaged/massages/massager/massaged/massage
+	> moisten/moistening/moistened/moistens/moistener/moistened/moisturization
+	> oil/oiling/oiled/oils/oiler/oiled/oiling
+  > pluck/plucking/plucked/plucks/plucker/plucked/plucking
+	> preen/preening/preened/preens/preener/preened/preening
+	> rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing
+	> sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization
+	> scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing
+	> shave/shaving/shaved/shaves/shaver/shaved/shaving
+	> soak/soaking/soaked/soaks/soaker/soaked/soaking
+#class remove groom
+
+> breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
+> dig/digging/dug/digs/digger/dug/digging
+> fiddle/fiddling/fiddled/fiddles/fiddler/fiddled/fiddling
+> fume/fuming/fumed/fumes/fumer/fumed/fuming
+> hiccup/hiccuping/hiccuped/hiccups/hiccuper/hiccuped/hiccuping
+> moan/moaning/moaned/moans/moaner/moaned/moaning
+> pray/praying/prayed/prays/prayer/prayed/prayer
+> rot/rotting/rotted/rots/rotter/rotten/rotting
+> spelunk/spelunking/spelunked/spelunks/spelunker/spelunked/spelunking
+
+> flap/flapping/flapped/flaps/flapper/flapped/flapping
+> grind/grinding/grinded/grinds/grinder/ground/grinding
+> hunt/hunting/hunted/hunts/hunter/hunted/hunting
+> iron/ironing/ironed/irons/ironer/ironed/ironing
+> kill/killing/killed/kills/killer/killed/killing
+> manipulate/manipulating/manipulated/manipulates/manipulator/manipulated/manipulation
+> organize/organizing/organized/organizes/organizer/organized/organization
+> penetrate/penetrating/penetrated/penetrates/penetrator/penetrated/penetration
+> pop/popping/popped/pops/popper/popped/popping
+> recycle/recycling/recycled/recycles/recycler/recycled/recycling
+> squeeze/squeezing/squeezed/squeezes/squeezer/squeezed/squeezing
+> squelch/squelching/squelched/squelches/squelcher/squelched/squelching
+> strategize/strategizing/strategized/strategizes/strategizer/strategized/strategizing
+> strike/striking/struck/strikes/striker/stricken/striking
+> transcribe/transcribing/transcribed/transcribes/transcriber/transcribed/transcribing
+> tune/tuning/tuned/tunes/tuner/tuned/tunings
+> uproot/uprooting/uprooted/uproots/uprooter/uprooted/uprooting
+> withdraw/withdrawing/withdrew/withdraws/withdrawer/withdrawn/withdrawing
+> wrinkle/wrinkling/wrinkled/wrinkles/wrinkler/wrinkled/wrinkling
+> zip/zipping/zipped/zips/zipper/zipped/zipping
+
+> authenticate/authenticating/authenticated/authenticates/authenticator/authenticated/authentication
+> chill/chilling/chilled/chills/chiller/chilled/chilling
+> conserve/conserving/conserved/conserves/conserver/conserved/conservation
+> decorate/decorating/decorated/decorates/decorator/decorated/decoration
+> dramatize/dramatizing/dramatized/dramatizes/dramatizer/dramatized/dramatization
+> jingle/jingling/jingled/jingles/jingler/jingled/jingling
+> lecture/lecturing/lectured/lectures/lecturer/lectured/lecturing
+> liquidate/liquidating/liquidated/liquidates/liquidator/liquidated/liquidation
+> purify/purifying/purified/purifies/purifier/purified/purification
+> rapture/rapturing/raptured/raptures/rapturer/raptured/rapture
+> report/reporting/reported/reports/reporter/reported/reporting
+
+#class add violent
+  > attack/attacking/attacked/attacks/attacker/attacked/attack
+  > bite/biting/bit/bites/biter/bitten/biting
+  > dominate/dominating/dominated/dominates/dominator/dominated/domination
+  > explode/exploding/exploded/explodes/exploder/exploded/explosion
+  > fart/farting/farted/farts/farter/farted/farting
+  > harass/harassing/harassed/harasses/harasser/harassed/harassment
+  > headbutt/headbutting/headbutted/headbutts/headbutter/headbutted/headbutting
+  > injure/injuring/injured/injures/injurer/injured/injury
+	> kick/kicking/kicked/kicks/kicker/kicked/kicking
+  > maim/maiming/maimed/maims/maimer/maimed/maiming
+  > manhandle/manhandling/manhandled/manhandles/manhandler/manhandled/manhandling
+  > mutilate/mutilating/mutilated/mutilates/mutilater/mutilated/mutilation
+  > punch/punching/punched/punches/puncher/punched/punching
+  > scratch/scratching/scratched/scratches/scratcher/scratched/scratching
+  > shatter/shattering/shattered/shatters/shatterer/shattered/shattering
+  > slap/slapping/slapped/slaps/slapper/slapped/slapping
+  > stab/stabbing/stabbed/stabs/stabber/stabbed/stabbing
+  > tickle/tickling/tickled/tickles/tickler/tickled/tickling
+  > vomit/vomiting/vomited/vomits/vomiter/vomited/vomiting
+#class remove violent
+
+#nsfw
+> erect/erecting/erected/erects/erector/erected/erection
+> ejaculate/ejaculating/ejaculated/ejaculates/ejaculator/ejaculated/ejaculation
+> piss/pissing/pissed/pisses/pisser/pissed/pissing
+> thrust/thrusting/thrust/thrusts/thruster/thrusted/thrusting
+> fuck/fucking/fucked/fucks/fucker/fucked/fucking
+> masturbate/masturbating/masturbated/masturbates/masturbator/masturbated/masturbation
+> fellate/fellating/fellated/fellates/fellater/fellated/fellatio
+> gyrate/gyrating/gyrated/gyrates/gyrator/gyrated/gyration
+> grope/groping/groped/gropes/groper/groped/groping
+> twerk/twerking/twerked/twerks/twerker/twerked/twerking
+> defecate/defecating/defecated/defecates/defecator/defecated/defecation
+> urinate/urinating/urinated/urinates/urinator/urinated/urination
+#sfw
