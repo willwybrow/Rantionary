@@ -3,79 +3,79 @@
 #subs simple ing ed s er pp noun
 
 #class add motion
-	#class add walk
-		> crawl/crawling/crawled/crawls/crawler/crawled/crawling
-		> march/marching/marched/marches/marcher/marched/marching
-		> perambulate/perambulating/perambulated/perambulates/perambulator/perambulated/perambulation
-		> sleepwalk/sleepwalking/sleepwalked/sleepwalks/sleepwalker/sleepwalked/sleepwalking
-		> snoop/snooping/snooped/snoops/snooper/snooped/snooping
-		> strut/strutting/strutted/struts/strutter/strutted/strutting
-		> tiptoe/tiptoeing/tiptoed/tiptoes/tiptoer/tiptoed/tiptoeing
-		> vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration
-		> waddle/waddling/waddled/woddles/woddler/waddled/waddling
-		> walk/walking/walked/walks/walker/walked/walking
-		> wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
-		#class add run
-			> gallop/galloping/galloped/gallops/galloper/galloped/galloping
-			> run/running/ran/runs/runner/run/running
-			> skip/skipping/skipped/skips/skipper/skipped/skipping
-			> sprint/sprinting/sprinted/sprints/sprinter/sprinted/sprinting
-			> stampede/stampeding/stampeded/stampedes/stampeder/stampeded/stampeding
-		#class remove run 
-	#class remove walk
+  #class add walk
+    > crawl/crawling/crawled/crawls/crawler/crawled/crawling
+    > march/marching/marched/marches/marcher/marched/marching
+    > perambulate/perambulating/perambulated/perambulates/perambulator/perambulated/perambulation
+    > sleepwalk/sleepwalking/sleepwalked/sleepwalks/sleepwalker/sleepwalked/sleepwalking
+    > snoop/snooping/snooped/snoops/snooper/snooped/snooping
+    > strut/strutting/strutted/struts/strutter/strutted/strutting
+    > tiptoe/tiptoeing/tiptoed/tiptoes/tiptoer/tiptoed/tiptoeing
+    > vibrate/vibrating/vibrated/vibrates/vibrator/vibrated/vibration
+    > waddle/waddling/waddled/woddles/woddler/waddled/waddling
+    > walk/walking/walked/walks/walker/walked/walking
+    > wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
+    #class add run
+      > gallop/galloping/galloped/gallops/galloper/galloped/galloping
+      > run/running/ran/runs/runner/run/running
+      > skip/skipping/skipped/skips/skipper/skipped/skipping
+      > sprint/sprinting/sprinted/sprints/sprinter/sprinted/sprinting
+      > stampede/stampeding/stampeded/stampedes/stampeder/stampeded/stampeding
+    #class remove run 
+  #class remove walk
 
-	#class add vehicle
-		#class add animal
-			> fly/flying/flew/flies/flier/flown/flying
-			> ride/riding/rode/rides/rider/ridden/riding
-			> trot/trotting/trotted/trots/trotter/trotted/trotting
-		#class remove animal
-		> cruise/cruising/cruised/cruises/cruiser/cruised/cruising
-		> drive/driving/drove/drives/driver/driven/driving
-		> pilot/piloting/piloted/pilots/pilot/piloted/piloting
-		> row/rowing/rowed/rows/rower/rowed/rowing
-		> sail/sailing/sailed/sails/sailor/sailed/sailing
-		> speed/speeding/sped/speeds/speeder/sped/speeding
-	#class remove vehicle
+  #class add vehicle
+    #class add animal
+      > fly/flying/flew/flies/flier/flown/flying
+      > ride/riding/rode/rides/rider/ridden/riding
+      > trot/trotting/trotted/trots/trotter/trotted/trotting
+    #class remove animal
+    > cruise/cruising/cruised/cruises/cruiser/cruised/cruising
+    > drive/driving/drove/drives/driver/driven/driving
+    > pilot/piloting/piloted/pilots/pilot/piloted/piloting
+    > row/rowing/rowed/rows/rower/rowed/rowing
+    > sail/sailing/sailed/sails/sailor/sailed/sailing
+    > speed/speeding/sped/speeds/speeder/sped/speeding
+  #class remove vehicle
 #class remove motion
 
 #class add pose
     > crouch/crouching/crouched/crouches/croucher/crouched/crouching
     > lay/laying/laid/lays/layer/laid/laying
     > sit/sitting/sat/sits/sitter/sat/sitting
-		> slip/slipping/slipped/slips/slipper/slipped/slipping
-		> slouch/slouching/slouched/slouches/sloucher/slouched/slouching
+    > slip/slipping/slipped/slips/slipper/slipped/slipping
+    > slouch/slouching/slouched/slouches/sloucher/slouched/slouching
     > squat/squatting/squatted/squats/squatter/squatted/squatting
     > stand/standing/stood/stands/stander/stood/standing
-		> tremble/trembling/trembled/trembles/trembler/trembled/trembling
-		> twist/twisting/twisted/twists/twister/twisted/twisting
-		> wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
+    > tremble/trembling/trembled/trembles/trembler/trembled/trembling
+    > twist/twisting/twisted/twists/twister/twisted/twisting
+    > wiggle/wiggling/wiggled/wiggles/wiggler/wiggled/wiggling
 #class remove pose
 
 #class add eat
     > masticate/masticating/masticated/masticates/masticater/masticated/mastication
     > chew/chewing/chewed/chews/chewer/chewed/chewing
     > eat/eating/ate/eats/eater/eaten/eating
-		> gargle/gargling/gargled/gargles/gargler/gargled/gargling
+    > gargle/gargling/gargled/gargles/gargler/gargled/gargling
     > slurp/slurping/slurped/slurps/slurper/slurped/slurping
-		> swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
+    > swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
 #class remove eat
 
 #class add groom
-	> bathe/bathing/bathed/bathes/bather/bathed/bathing
-	> clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
-	> gargle/gargling/gargled/gargles/gargler/gargled/gargling
-	> groom/grooming/groomed/grooms/groomer/groomed/grooming
-	> massage/massaging/massaged/massages/massager/massaged/massage
-	> moisten/moistening/moistened/moistens/moistener/moistened/moisturization
-	> oil/oiling/oiled/oils/oiler/oiled/oiling
-  > pluck/plucking/plucked/plucks/plucker/plucked/plucking
-	> preen/preening/preened/preens/preener/preened/preening
-	> rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing
-	> sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization
-	> scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing
-	> shave/shaving/shaved/shaves/shaver/shaved/shaving
-	> soak/soaking/soaked/soaks/soaker/soaked/soaking
+    > bathe/bathing/bathed/bathes/bather/bathed/bathing
+    > clean/cleaning/cleaned/cleans/cleaner/cleaned/cleaning
+    > gargle/gargling/gargled/gargles/gargler/gargled/gargling
+    > groom/grooming/groomed/grooms/groomer/groomed/grooming
+    > massage/massaging/massaged/massages/massager/massaged/massage
+    > moisten/moistening/moistened/moistens/moistener/moistened/moisturization
+    > oil/oiling/oiled/oils/oiler/oiled/oiling
+    > pluck/plucking/plucked/plucks/plucker/plucked/plucking
+    > preen/preening/preened/preens/preener/preened/preening
+    > rub/rubbing/rubbed/rubs/rubber/rubbed/rubbing
+    > sanitize/sanitizing/sanitized/sanitizes/sanitizer/sanitized/sanitization
+    > scrub/scrubbing/scrubbed/scrubs/scrubber/scrubbed/scrubbing
+    > shave/shaving/shaved/shaves/shaver/shaved/shaving
+    > soak/soaking/soaked/soaks/soaker/soaked/soaking
 #class remove groom
 
 > breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
@@ -130,7 +130,7 @@
   > harass/harassing/harassed/harasses/harasser/harassed/harassment
   > headbutt/headbutting/headbutted/headbutts/headbutter/headbutted/headbutting
   > injure/injuring/injured/injures/injurer/injured/injury
-	> kick/kicking/kicked/kicks/kicker/kicked/kicking
+  > kick/kicking/kicked/kicks/kicker/kicked/kicking
   > maim/maiming/maimed/maims/maimer/maimed/maiming
   > manhandle/manhandling/manhandled/manhandles/manhandler/manhandled/manhandling
   > mutilate/mutilating/mutilated/mutilates/mutilater/mutilated/mutilation

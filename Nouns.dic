@@ -5,20 +5,20 @@
 #class add animal
 
   #class add insect
-		> ant/ants
-		> bee/bees
+    > ant/ants
+    > bee/bees
     > beetle/beetles
-		> butterfly/butterflies
+    > butterfly/butterflies
     > cricket/crickets
-		> cockroach/cockroaches
-		> dragonfly/dragonflies
+    > cockroach/cockroaches
+    > dragonfly/dragonflies
     > grasshopper/grasshoppers
-		> ladybird/ladybirds
+    > ladybird/ladybirds
     > locust/locusts
-		> moth/moths
-		> stick insect/stick insects
-		> wasp/wasps
-		> weevil/weevils
+    > moth/moths
+    > stick insect/stick insects
+    > wasp/wasps
+    > weevil/weevils
   #class remove insect
 
   #class add bird
@@ -55,104 +55,104 @@
       #class remove penguin
   #class remove bird
 
-	#class add mammal
-		#class add cat
-			> cat/cats
-			> cougar/cougars
-			> cheetah/cheetahs
-			> leopard/leopards
-			> lion/lions
-			> tiger/tigers
-		#class remove cat
-	
-		#class add dog
-			> beagle/beagles
-			> bulldog/bulldogs
-			> chihuahua/chihuahuas
-			> dachshund/dachshunds
-			> dog/dogs
-			> huskie/huskies
-			> hyena/hyenas
-			> labrador/labradors
-			> poodle/poodles
-			> rottweiler/rottweilers
-			> spaniel/spaniels
-			> wolf/wolves
-			> yorkshire terrier/yorkshire terriers
-		#class remove dog
-	
-		#class add primate
-			> baboon/baboons
-			> chimp/chimps
-			> gibbon/gibbons
-			> gorilla/gorillas
-			> lemur/lemurs
-			> macaque/macaques
-			> monkey/monkeys
-			> orangutan/orangutans
-		#class remove primate
-	
-		> bat/bats
-		> deer/deer
-		> bull/bulls
-		> donkey/donkeys
-		> elephant/elephants
-		> goat/goats
-		> hedgehog/hedgehogs
-		> horse/horses
-		> llama/llamas
-		> mammoth/mammoths
-		> meerkat/meerkats
-		> moose/moose
-		> otter/otters
-		> pony/ponies
-		> porcupine/porcupines
-		> quokka/quokkas
-		> rat/rats
-		> skunk/skunks
-		> squirrel/squirrels
-		> weasel/weasels
-		> yak/yaks
-		> zebra/zebras
-	#class remove mammal
+#class add mammal
+  #class add cat
+    > cat/cats
+    > cougar/cougars
+    > cheetah/cheetahs
+    > leopard/leopards
+    > lion/lions
+    > tiger/tigers
+  #class remove cat
 
-	#class add reptile
-		> alligator/alligators
-		> anaconda/anacondas
-		> crocodile/crocodiles
-		> gecko/geckos
-		> lizard/lizards
-		> python/pythons
-		> snake/snakes
-		> tortoise/tortoises
-		> turtle/turtles
-	#class remove reptile
-	
-	#class add amphibian
-		> frog/frogs
-		> newt/newts
-		> salamander/salamanders
-		> tadpole/tadpoles
-		> toad/toads
-	#class remove amphibian
+  #class add dog
+    > beagle/beagles
+    > bulldog/bulldogs
+    > chihuahua/chihuahuas
+    > dachshund/dachshunds
+    > dog/dogs
+    > huskie/huskies
+    > hyena/hyenas
+    > labrador/labradors
+    > poodle/poodles
+    > rottweiler/rottweilers
+    > spaniel/spaniels
+    > wolf/wolves
+    > yorkshire terrier/yorkshire terriers
+  #class remove dog
 
-	#class add fish
-		> bass/basses
-		> blowfish/blowfish
-		> carp/carp
-		> eel/eels
-		> fish/fishes
-		> goldfish/goldfish
-		> pufferfish/pufferfish
-		> salmon/salmon
-		> shark/sharks
-	#class remove fish
+  #class add primate
+    > baboon/baboons
+    > chimp/chimps
+    > gibbon/gibbons
+    > gorilla/gorillas
+    > lemur/lemurs
+    > macaque/macaques
+    > monkey/monkeys
+    > orangutan/orangutans
+  #class remove primate
 
-  > leech/leeches
-  > octopus/octopodes
-  > squid/squid
-  > tyrannosaurus rex/tyrannosaurus rexes
-  > velociraptor/velociraptors
+    > bat/bats
+    > deer/deer
+    > bull/bulls
+    > donkey/donkeys
+    > elephant/elephants
+    > goat/goats
+    > hedgehog/hedgehogs
+    > horse/horses
+    > llama/llamas
+    > mammoth/mammoths
+    > meerkat/meerkats
+    > moose/moose
+    > otter/otters
+    > pony/ponies
+    > porcupine/porcupines
+    > quokka/quokkas
+    > rat/rats
+    > skunk/skunks
+    > squirrel/squirrels
+    > weasel/weasels
+    > yak/yaks
+    > zebra/zebras
+  #class remove mammal
+
+  #class add reptile
+    > alligator/alligators
+    > anaconda/anacondas
+    > crocodile/crocodiles
+    > gecko/geckos
+    > lizard/lizards
+    > python/pythons
+    > snake/snakes
+    > tortoise/tortoises
+    > turtle/turtles
+  #class remove reptile
+
+  #class add amphibian
+    > frog/frogs
+    > newt/newts
+    > salamander/salamanders
+    > tadpole/tadpoles
+    > toad/toads
+  #class remove amphibian
+
+  #class add fish
+    > bass/basses
+    > blowfish/blowfish
+    > carp/carp
+    > eel/eels
+    > fish/fishes
+    > goldfish/goldfish
+    > pufferfish/pufferfish
+    > salmon/salmon
+    > shark/sharks
+  #class remove fish
+
+    > leech/leeches
+    > octopus/octopodes
+    > squid/squid
+    > tyrannosaurus rex/tyrannosaurus rexes
+    > velociraptor/velociraptors
 #class remove animal
 
 #class add clothing
@@ -163,40 +163,40 @@
     > sock/socks
   #class remove footwear
 
-	#class add underwear
-		> boxers/pairs of boxers
-		> bra/bras
-		> briefs/pairs of briefs
-		> girdle/girdles
-	#class remove underwear
-	
-	#class add accessory
-		> belt/belts
-		> cufflink/cufflinks
-		> hat/hats
-		> watch/watches
-		> tie/ties
-		> top hat/top hats
-		> zipper/zippers
-	#class remove accessory
+  #class add underwear
+    > boxers/pairs of boxers
+    > bra/bras
+    > briefs/pairs of briefs
+    > girdle/girdles
+  #class remove underwear
 
-	#class add upperbody
-		> dress/dresses
-		> jacket/jackets
-		> shirt/shirts
-		> sweatshirt/sweatshirts
-		> tuxedo/tuxedoes
-		> vest/vests
-	#class remove upperbody
+  #class add accessory
+    > belt/belts
+    > cufflink/cufflinks
+    > hat/hats
+    > watch/watches
+    > tie/ties
+    > top hat/top hats
+    > zipper/zippers
+  #class remove accessory
 
-	#class add lowerbody
-		> dress/dresses
-		> kilt/kilts
-		> pantaloons/pantaloons
-		> pants/pants
-		> skirt/skirts
-		> suit/suits
-	#class remove lowerbody
+  #class add upperbody
+    > dress/dresses
+    > jacket/jackets
+    > shirt/shirts
+    > sweatshirt/sweatshirts
+    > tuxedo/tuxedoes
+    > vest/vests
+  #class remove upperbody
+
+  #class add lowerbody
+    > dress/dresses
+    > kilt/kilts
+    > pantaloons/pantaloons
+    > pants/pants
+    > skirt/skirts
+    > suit/suits
+  #class remove lowerbody
 #class remove clothing
 
 #class add ball
@@ -555,10 +555,10 @@
 
 #class add shape
   > circle/circles
-	> hexagon/hexagons
+  > hexagon/hexagons
   > oval/ovals
-	> polyhedrons/polyedra
-	> rectangle/rectangles
+  > polyhedrons/polyedra
+  > rectangle/rectangles
   > square/squares
   > triangle/triangles
 #class remove shape
@@ -617,39 +617,39 @@
 #class remove tool
 
 #class add vehicle
-	#class add water
-		> aircraft carrier/aircraft carriers
-		> boat/boats
-		> hovercraft/hovercrafts
-		> ship/ships
-		> speedboat/speedboats
-		> submarine/submarines
-	#class remove water
+  #class add water
+    > aircraft carrier/aircraft carriers
+    > boat/boats
+    > hovercraft/hovercrafts
+    > ship/ships
+    > speedboat/speedboats
+    > submarine/submarines
+  #class remove water
 
-	#class add air
-		> airplane/airplanes
-		> biplane/biplanes
-		> blimp/blimps
-		> helicopter/helicopters
-		> hot air ballon/hot air balloons
-		> hovercraft/hovercrafts
-		> jetpack/jetpacks
-		> light aircraft/light aircraft
-		> weather balloon/weather balloons
-	#class remove air
-
-	#class add land
-		> black cab/black cabs
-		> car/cars
-		> hot rod/hot rods
-		> hovercraft/hovercrafts
-		> lorry/lorries
-		> minivan/minivans
-		> motorcycle/motorcycles
-		> semi/semis
-		> train/trains
-		> truck/trucks
-	#class remove land
+  #class add air
+    > airplane/airplanes
+    > biplane/biplanes
+    > blimp/blimps
+    > helicopter/helicopters
+    > hot air ballon/hot air balloons
+    > hovercraft/hovercrafts
+    > jetpack/jetpacks
+    > light aircraft/light aircraft
+    > weather balloon/weather balloons
+  #class remove air
+  
+  #class add land
+    > black cab/black cabs
+    > car/cars
+    > hot rod/hot rods
+    > hovercraft/hovercrafts
+    > lorry/lorries
+    > minivan/minivans
+    > motorcycle/motorcycles
+    > semi/semis
+    > train/trains
+    > truck/trucks
+  #class remove land
 #class remove vehicle
 
 #class add weapon
