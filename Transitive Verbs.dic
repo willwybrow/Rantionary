@@ -1,5 +1,5 @@
 #version 2
-#name transverb
+#name verb
 #subs simple ing ed s er pp noun
 
 #class add motion
