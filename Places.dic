@@ -46,8 +46,6 @@
       | pron l"{-brV-t%O-ri/l"{-brV-t%O-riz
     > library/libraries
       | pron l"aI-br%E-ri/l"aI-br%E-riz
-    > mall/malls
-      | pron m"Ol/m"Olz
     > mansion/mansions
       | pron m"{n-SVn/m"{n-tSVnz
     > morgue/morgues
@@ -91,6 +89,17 @@
       | pron t"aU-3`/t"aU-3`z
     > warehouse/warehouses
       | pron w"err-h%aUs/w"err-h%aU-sIz
+    #class add retail
+      > cornershop/cornershops
+      > emporium/emporia
+      > kiosk/kiosks
+      > market/markets
+      > mall/malls
+      > shop/shops
+      > store/stores
+      > supermarket/supermarkets
+      > wholesale depot/wholesale depots
+    #class remove retail
   #class remove building
 
   #class add natural
