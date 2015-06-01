@@ -1,0 +1,147 @@
+#version 2
+#name elements
+#subs default symbol
+
+#class add nonmetal
+	#class add polyatomic
+		> Hydrogen/H
+		> Phosphorus/P
+		> Sulfur/S
+		> Carbon/C
+		> Selenium/Se
+	#class remove polyatomic
+	#class add noble
+		> Helium/He
+		> Neon/Ne
+		> Argon/Ar
+		> Krypton/Kr
+		> Xenon/Xe
+		> Radon/Rn
+	#class remove noble
+	#class add diatomic
+		> Nitrogen/N
+		> Oxygen/O
+		> Fluorine/F
+		> Chlorine/Cl
+		> Bromine/Br
+		> Iodine/I
+	#class remove diatomic
+#class remove nonmetal
+#class add metal
+	#class add alkali
+		> Lithium/Li
+		> Sodium/Na
+		> Potassium/K
+		> Rubidium/Rb
+		> Caesium/Cs
+		> Francium/Fr
+	#class remove alkali
+	#class add earth
+		> Beryllium/Be
+		> Magnesium/Mg
+		> Calcium/Ca
+		> Strontium/Sr
+		> Barium/Ba
+		> Radium/Ra
+	#class remove earth
+	#class add posttransition
+		> Aluminium/Al
+		> Gallium/Ga
+		> Tin/Sn
+		> Indium/In
+		> Thallium/Tl
+		> Lead/Pb
+		> Bismuth/Bi
+		> Polonium/Po
+	#class remove posttransition
+	#class add transition
+		> Scandium/Sc
+		> Titanium/Ti
+		> Vanadium/V
+		> Chromium/Cr
+		> Manganese/Mn
+		> Iron/Fe
+		> Cobalt/Co
+		> Nickel/Ni
+		> Copper/Cu
+		> Zinc/Zn
+		> Yttrium/Y
+		> Zirconium/Zr
+		> Niobium/Nb
+		> Molybdenum/Mo
+		> Technetium/Tc
+		> Ruthenium/Ru
+		> Rhodium/Rh
+		> Palladium/Pd
+		> Silver/Ag
+		> Cadmium/Cd
+		> Hafnium/Hf
+		> Tantalum/Ta
+		> Tungsten/W
+		> Rhenium/Re
+		> Osmium/Os
+		> Iridium/Ir
+		> Platinum/Pt
+		> Gold/Au
+		> Mercury/Hg
+		> Rutherfordium/Rf
+		> Dubnium/Db
+		> Seaborgium/Sg
+		> Bohrium/Bh
+		> Hassium/Hs
+		> Copernicium/Cn
+	#class remove transition
+	#class add lanthanide
+		> Lanthanum/La
+		> Cerium/Ce
+		> Praseodymium/Pr
+		> Neodymium/Nd
+		> Promethium/Pm
+		> Samarium/Sm
+		> Europium/Eu
+		> Gadolinium/Gd
+		> Terbium/Tb
+		> Dysprosium/Dy
+		> Holmium/Ho
+		> Erbium/Er
+		> Thulium/Tm
+		> Ytterbium/Yb
+		> Lutetium/Lu
+	#class remove lanthanide
+	#class add actinide
+		> Actinium/Ac
+		> Thorium/Th
+		> Protactinium/Pa
+		> Uranium/U
+		> Neptunium/Np
+		> Plutonium/Pu
+		> Americium/Am
+		> Curium/Cm
+		> Berkelium/Bk
+		> Californium/Cf
+		> Einsteinium/Es
+		> Fermium/Fm
+		> Mendelevium/Md
+		> Nobelium/No
+		> Lawrencium/Lr
+	#class remove actinide
+#class remove metal
+#class add metalloid
+	> Silicon/Si
+	> Boron/B
+	> Arsenic/As
+	> Germanium/Ge
+	> Tellurium/Te
+	> Antimony/Sb
+	> Astatine/At
+#class remove metalloid
+
+> Meitnerium/Mt
+> Darmstadtium/Ds
+> Roentgenium/Rg
+> Ununtrium/Uut
+> Flerovium/Fl
+> Ununpentium/Uup
+> Livermorium/Lv
+> Ununseptium/Uus
+> Ununoctium/Uuo
