@@ -164,9 +164,9 @@
   #class remove footwear
 
   #class add underwear
-    > boxers/pairs of boxers
+    > pairs of boxers/pairs of boxers
     > bra/bras
-    > briefs/pairs of briefs
+    > pairs of briefs/pairs of briefs
     > girdle/girdles
   #class remove underwear
 
@@ -193,9 +193,10 @@
     > dress/dresses
     > kilt/kilts
     > pantaloons/pantaloons
-    > pants/pants
+    > pair of pants/pairs of pants
     > skirt/skirts
     > suit/suits
+    > pair of trousers/pairs of trousers
   #class remove lowerbody
 #class remove clothing
 
