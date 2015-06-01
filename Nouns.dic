@@ -164,9 +164,9 @@
   #class remove footwear
 
   #class add underwear
-    > pairs of boxers/pairs of boxers
+    > pair of boxers/pairs of boxers
     > bra/bras
-    > pairs of briefs/pairs of briefs
+    > pair of briefs/pairs of briefs
     > girdle/girdles
   #class remove underwear
 
