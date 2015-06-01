@@ -21,22 +21,22 @@
   > sweat
   > tears
   > vomit
-	#class add edible
-		> beer
-		> extra-virgin olive oil
-		> guacamole
-		> ketchup
-		> lemonade
-		> mayonnaise
-		> mustard
-		> olive oil
-		> orange juice
-		> tomato sauce
-		> vinegar
-		> vodka
-		> water
-		> wine
-	#class remove edible
+  #class add edible
+    > beer
+    > extra-virgin olive oil
+    > guacamole
+    > ketchup
+    > lemonade
+    > mayonnaise
+    > mustard
+    > olive oil
+    > orange juice
+    > tomato sauce
+    > vinegar
+    > vodka
+    > water
+    > wine
+  #class remove edible
 #class remove liquid
 
 #class add drug
@@ -45,10 +45,10 @@
   > crack
   > extacy
   > heroin
-	> krokodil
+  > krokodil
   > LSD
   > marijuana
-	> MDMA
+  > MDMA
   > mescaline
   > meth
   > PCP
@@ -56,23 +56,24 @@
 #class remove drug
 
 #class add solid
-	> antimatter
-	> cement
-	> dark matter
-	> grass
-	> sand
-	> snow
-	#class add edible
-		> bread/bread
-		> corn
-		> flour
-		> fudge/fudge
-		> meatloaf
-		> rice
-		> spaghetti
-		> spinach
-		> oatmeal
-	#class remove edible
+  > antimatter
+  > cement
+  > dark matter
+  > grass
+  > sand
+  > snow
+  > dynamite/dynamites
+  #class add edible
+    > bread/bread
+    > corn
+    > flour
+    > fudge/fudge
+    > meatloaf
+    > rice
+    > spaghetti
+    > spinach
+    > oatmeal
+  #class remove edible
 #class remove solid
 
 > money 
