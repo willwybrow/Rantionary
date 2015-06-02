@@ -4,38 +4,25 @@
 
 #class add human
   > age/older/younger/oldest/youngest
-    | pron "eIdZ/"oUl-d3`/j"VN-g3`/"oUl-dVst
   > ethnicity/more ethnic/less ethnic/most ethnic/least ethnic
-    | pron ET-n"I-sI-ti/m"Orr "ET-nIk/l"Es "ET-nIk/m"oUs "ET-nIk
   > honesty/more truthful/less truthful/most truthful/least truthful
-    | pron "A-nV-sti/m"Orr/l"Es tr"uT-fVl/m"oUs tr"uT-fVl
   > sexy/sexier/less sexy/sexiest/unsexiest
   > race/racier/less racy/raciest/least racy
 #class remove human
 
 #class add physical
   > colour/more colorful/duller/most colorful/least colourful
-    | pron k"O-l3`/m"Orr k"V-l3`-fVl/d"V-l3`/m"oUs k"V-l3`-fVl
   > force/harder/softer/hardest/softest
-    | pron f"Orrs/h"Arr-d3`/s"Of-t3`/h"Arr-dVst
   > girth/girthier/less girthy/girthiest/least girthy
   > height/taller/shorter/tallest/shortest
-    | pron h"aIt/t"O-l3`/S"Orr-t3`/t"O-lIst
   > length/longer/shorter/longest/shortest
-    | pron l"ENT/l"ON-g3`/S"Orr-t3`/l"ON-gIst
   > luminosity/brighter/darker/brightest/darkest
   > power level/more powerful/weaker/most powerful/least powerful
-    | pron p"aU-3` l"E-vVl/m"Orr p"aU-3`-fVl/w"i-k3`/m"oUs p"aU-3`-fVl
   > size/bigger/smaller/biggest/smallest
-    | pron s"aIz/b"I-g3`/sm"O-l3`/b"I-gVst
   > speed/faster/slower/fastest/slowest
-    | pron sp"id/f"{-st3`/sl"oU-3`/f"{-stVst
   > strength/stronger/weaker/strongest/weakest
   > weight/heavier/lighter/heaviest/lightest
-    | pron w"eIt/h"E-vi-3`/l"aI-t3`/h"E-vi-Vst
   > wetness/wetter/drier/wettest/driest
-    | pron w"Et-nVs/w"E-t3`/dr"aI-3`/w"E-tVst
   > width/wider/thinner/widest/thinnest
-    | pron w"IdT/w"aI-d3`/sk"I-ni-3`/w"aI-dVst
 #class remove physical
 
