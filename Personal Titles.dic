@@ -2,27 +2,47 @@
 #name title
 #subs default
 
-> Colonel
-> Daddy
-> Dojo
-> Dr.
-> Governor
-> Granny
-> Honorable
-> King
-> Madam
-> Mama
-> Master
-> Mayor
-> Mistress
-> Mr.
-> Mrs.
-> Ms.
-> Old
-> Papa
-> Prince
-> Professor
-> Queen
-> Sensei
-> Sergeant
-> Sir
+#class add prestigious
+  #class add professional
+    #class add military
+      > Admiral
+      > Colonel
+      > Lieutenant
+      > Sergeant
+    #class remove military
+    > Dojo
+    > Dr.
+    > Governor
+    > Professor
+    > Sensei
+  #class remove professional
+
+  #class add royal
+    > King
+    > Prince
+    > Princess
+    > Queen
+  #class remove royal
+  > Honorable
+  > Mayor
+#class remove prestigious
+
+#class add personal
+  #class add family
+    #class add relative
+      > Daddy
+      > Granny
+      > Mama
+      > Papa
+    #class remove relative
+    > Mistress
+  #class remove family
+  > Madam
+  > Master
+  > Mr.
+  > Mrs.
+  > Ms.
+  > Old
+  > Sir
+#class remove personal
+
