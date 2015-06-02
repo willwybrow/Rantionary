@@ -359,10 +359,13 @@
   > coffee table/coffee tables
   > couch/couches
   > desk/desks
+  > hat rack/hat racks
   > lawn chair/lawn chairs
   > nightstand/nightstands
   > recliner/recliners
   > rocking chair/rocking chairs
+  > sofa/sofas
+  > stool/stools
 #class remove furniture
 
 #class add job
@@ -448,28 +451,17 @@
 #class add liquid
   > acid/acids
   > beer/beers
-  > bleach/bleach
   > cream/creams
-  > diarrhea/diarrhea
   > earwax/earwax
-  > grease/grease
   > lotion/lotions
   > oil/oils
-  > olive oil/olive oil
   > pudding/puddings
-  > rain/rains
-  > saliva/saliva
   > sauce/sauces
-  > slime/slime
   > snot/snots
   > soap/soaps
   > soup/soups
-  > sweat/sweats
-  > tar/tar
   > toothpaste/toothpastes
-  > urine/urine
-  > vodka/vodka
-  > water/water
+  > vodka/vodkas
   > wine/wines
   > yogurt/yogurts
 #class remove liquid
@@ -710,7 +702,6 @@
 > dollar bill/dollar bills
 > doodle/doodles
 > duct tape/duct tape
-> earwax/earwax
 > enigma/enigmas
 > eraser/erasers
 > fan/fans
@@ -742,7 +733,6 @@
 > lump/lumps
 > magnifying glass/magnifying glasses
 > manhole/manholes
-> manure/manure
 > mask/masks
 > meat/meats
 > mirror/mirrors

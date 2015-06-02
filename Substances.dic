@@ -4,7 +4,9 @@
 
 #class add liquid
   > acid
+  > bleach
   > blood
+  > diarrhea
   > earwax
   > gasoline
   > grease
@@ -16,10 +18,15 @@
   > oil
   > paint
   > plasma
+  > rain
+  > saliva
   > sap
+  > slime
   > soy sauce
   > sweat
+  > tar
   > tears
+  > urine
   > vomit
   #class add edible
     > beer
@@ -58,8 +65,10 @@
 #class add solid
   > antimatter
   > cement
+  > earwax/earwax
   > dark matter
   > grass
+  > manure
   > sand
   > snow
   > dynamite/dynamites
