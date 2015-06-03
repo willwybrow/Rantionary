@@ -314,6 +314,26 @@
   > sunny/sunniness
 #class remove weather
 
+#class add political
+  > authoritarian/authoritarianism
+  > centrist/centrism
+  > communist/communism
+  > conservative/conservatism
+  > fascist/fascism
+  > left-wing/leftism
+  > liberal/liberalism
+  > libertarian/libertarianism
+  > marxist/marxism
+  > nationalist/nationalism
+  > political/politicality
+  > populist/populism
+  > progressive/progressiveness
+  > right-wing/rightism
+  > separatist/separatism
+  > socialist/socialism
+  > totalitarian/totalitarianism
+#class remove political
+
 > absolute/absoluteness
   | pron "{b-sV-l%ut/"{b-sV-l%ut-nVs
 > academic/academicness
@@ -740,7 +760,6 @@
 > plentiful/plentifulness
 > poisonous/toxicity
   | pron p"OI-zV-nVs/tAk-s"I-sV-ti
-> political/politicalness
 > polluted/pollution
   | pron pV-l"u-tId/pV-l"u-SVn
 > popular/popularity
