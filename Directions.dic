@@ -3,17 +3,17 @@
 #subs simple to of
 
 #class add cardinal
-	>north/northwards/north of
-	>east/eastwards/east of
-	>south/southwards/south of
-	>west/westwards/west of
+  >north/northwards/north of
+  >east/eastwards/east of
+  >south/southwards/south of
+  >west/westwards/west of
 #class remove cardinal
 
 #class add relative
-	>front/forwards/in front of
-	>back/backwards/behind
-	>left/leftwards/left of
-	>right/rightwards/right of
-	>top/upwards/above
-	>bottom/downwards/below
+  >front/forwards/in front of
+  >back/backwards/behind
+  >left/leftwards/left of
+  >right/rightwards/right of
+  >up/upwards/above
+  >down/downwards/below
 #class remove relative

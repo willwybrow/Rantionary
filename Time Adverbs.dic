@@ -133,3 +133,10 @@
     | pron r"i-sVn-li
 #class remove time
 
+#class add ordinal
+  > first
+  > second
+  > third
+  > last-but-one
+  > last
+#class remove ordinal

@@ -1,13 +1,16 @@
 #version 2
+
 #name verb
 #subs simple ing ed s er pp noun
 
 #class add motion
   #class add walk
+    > crawl/crawling/crawled/crawls/crawler/crawled/crawling
+    > hop/hopping/hopped/hops/hopper/hopped/hopping
     > march/marching/marched/marches/marcher/marched/marching
+    > stroll/strolling/strolled/strolls/stroller/strolled/strolling
     > walk/walking/walked/walks/walker/walked/walking
   #class remove walk
-
   #class add vehicle
     #class add animal
       > fly/flying/flew/flies/flier/flown/flying
