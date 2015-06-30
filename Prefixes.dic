@@ -35,6 +35,29 @@
     | pron tr"aI
 #class remove quantity
 
+#class add SI
+  > yotta
+  > zetta
+  > exa
+  > peta
+  > tera
+  > giga
+  > mega
+  > kilo
+  > hecto
+  > deca
+  > deci
+  > centi
+  > milli
+  > micro
+  > nano
+  > pico
+  > femto
+  > atto
+  > zepto
+  > yocto
+#class remove SI
+
 > a
   | pron "eI
 > anti
