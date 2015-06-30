@@ -35,7 +35,7 @@
     | pron tr"aI
 #class remove quantity
 
-#class add SI
+#class add si
   > yotta
   > zetta
   > exa
@@ -56,7 +56,7 @@
   > atto
   > zepto
   > yocto
-#class remove SI
+#class remove si
 
 > a
   | pron "eI
