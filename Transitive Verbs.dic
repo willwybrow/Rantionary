@@ -187,6 +187,19 @@
   #class remove instrument
 #class remove groom
 
+#class add see
+  > detect/detecting/detected/detects/detector/detected/detection
+  > identify/identifying/identified/identifies/identifier/identified/identification
+  > notice/noticing/noticed/notices/noticer/noticed/noticing
+  > observe/observing/observed/observes/observer/observed/observation
+  > ogle/ogling/ogled/ogles/ogler/ogled/ogling
+  > recognise/recognising/recognised/recognises/recognised/recognising
+  > see/seeing/saw/sees/seer/seen/sight
+  > spot/spotting/spotted/spots/spotter/spotted/spotting
+  > spy/spying/spied/spies/spier/spied/spying
+  > view/viewing/viewed/views/viewer/viewed/viewing
+#class remove see
+
 > breastfeed/breastfeeding/breastfed/breastfeeds/breastfeeder/breastfed/breastfeeding
 > fume/fuming/fumed/fumes/fumer/fumed/fuming
 > pray/praying/prayed/prays/prayer/prayed/prayer
