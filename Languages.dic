@@ -1,0 +1,106 @@
+#version 2
+#name lang
+#subs name native
+
+#class add ie
+  #class add germanic
+    #class add westgermanic
+      > Afrikaans/Afrikaans
+      > Dutch/Nederlands
+      > English/English
+      > German/Deutsch
+      > Yiddish/יידיש
+      #class historic
+        > Old English/Ænglisc
+      #class historic
+    #class remove westgermanic
+
+    #class add eastgermanic
+      #class add historic
+        >Gothic/Gutiskons
+      #class remove historic
+    #class remove eastgermanic
+
+    #class add northgermanic
+      > Danish/Dansk
+      > Faroese/føroyskt
+      > Icelandic/íslenska
+      > Norwegian/Norsk
+      > Swedish/Svenska
+      #class add historic
+        > Old Norse/norrœnt mál
+      #class remove historic
+    #class remove northgermanic
+  #class remove germanic
+
+  #class add celtic
+    #class add brittonic
+      > Breton/Brezhoneg
+      > Cornish/Kernewek
+      > Welsh/Cymraeg
+    #class remove brittonic
+
+    #class add goidelic
+      > Irish/Gaelige
+      > Manx/Gaelg
+      > Scottish Gaelic/Gáidhlig
+    #class remove goidelic
+  #class remove celtic
+
+  #class add romance
+    > Catalan/català
+    > French/Français
+    > Italian/Italiano
+    > Spanish/Español
+    > Portuguese/Português
+    > Romanian/română
+    #class add historic
+      > Latin/Lingua latīna
+    #class remove historic
+  #class remove romance
+
+  #class add baltic
+    > Latvian/latviešu valoda
+    > Lithuanian/lietuvių kalba
+  #class remove baltic
+  
+  #class add slavic
+    #class add eastslavic
+      > Belarusian/беларуская мова
+      > Russian/ру́сский язы́к
+      > Ukrainian/українська мова
+    #class remove eastslavic
+
+    #class add southslavic
+      > Bulgarian/български език
+      > Croatian/hrvatski
+      > Macedonian/македонски јазик
+      > Serbian/srpski
+      > Slovenian/slovenščina
+      #class add historic
+        > Old Church Slavonic/словѣ́ньскъ ѩзꙑ́къ
+      #class remove historic
+    #class remove southslavic
+
+    #class add westslavic
+      > Czech/čeština
+      > Polish/język polski
+      > Slovak/slovenčina 
+    #class remove westslavic
+  #class remove slavic
+#class remove ie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
