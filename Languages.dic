@@ -1,97 +1,143 @@
 #version 2
 #name lang
-#subs name native
+#subs name native iso
 
 #class add ie
   #class add germanic
     #class add westgermanic
-      > Afrikaans/Afrikaans
-      > Dutch/Nederlands
-      > English/English
-      > German/Deutsch
-      > Yiddish/יידיש
-      #class historic
-        > Old English/Ænglisc
-      #class historic
+      > Afrikaans/Afrikaans/af
+      > Dutch/Nederlands/nl
+      > English/English/en
+      > German/Deutsch/de
+      > Yiddish/יידיש/yi
+      #class add historic
+        > Old English/Ænglisc/purple
+      #class remove historic
     #class remove westgermanic
 
     #class add eastgermanic
       #class add historic
-        >Gothic/Gutiskons
+        >Gothic/Gutiskons/purple
       #class remove historic
     #class remove eastgermanic
 
     #class add northgermanic
-      > Danish/Dansk
-      > Faroese/føroyskt
-      > Icelandic/íslenska
-      > Norwegian/Norsk
-      > Swedish/Svenska
+      > Danish/Dansk/da
+      > Faroese/føroyskt/fo
+      > Icelandic/íslenska/is
+      > Norwegian/Norsk/no
+      > Swedish/Svenska/sv
       #class add historic
-        > Old Norse/norrœnt mál
+        > Old Norse/norrœnt mál/purple
       #class remove historic
     #class remove northgermanic
   #class remove germanic
 
   #class add celtic
     #class add brittonic
-      > Breton/Brezhoneg
-      > Cornish/Kernewek
-      > Welsh/Cymraeg
+      > Breton/Brezhoneg/br
+      > Cornish/Kernewek/kw
+      > Welsh/Cymraeg/cy
     #class remove brittonic
 
     #class add goidelic
-      > Irish/Gaelige
-      > Manx/Gaelg
-      > Scottish Gaelic/Gáidhlig
+      > Irish/Gaelige/ga
+      > Manx/Gaelg/gv
+      > Scottish Gaelic/Gáidhlig/gd
     #class remove goidelic
   #class remove celtic
 
   #class add romance
-    > Catalan/català
-    > French/Français
-    > Italian/Italiano
-    > Spanish/Español
-    > Portuguese/Português
-    > Romanian/română
+    > Catalan/català/ca
+    > French/Français/fr
+    > Italian/Italiano/it
+    > Spanish/Español/es
+    > Portuguese/Português/pt
+    > Romanian/română/ro
     #class add historic
-      > Latin/Lingua latīna
+      > Latin/Lingua latīna/la
     #class remove historic
   #class remove romance
 
   #class add baltic
-    > Latvian/latviešu valoda
-    > Lithuanian/lietuvių kalba
+    > Latvian/latviešu valoda/lv
+    > Lithuanian/lietuvių kalba/lt
   #class remove baltic
   
   #class add slavic
     #class add eastslavic
-      > Belarusian/беларуская мова
-      > Russian/ру́сский язы́к
-      > Ukrainian/українська мова
+      > Belarusian/беларуская мова/be
+      > Russian/ру́сский язы́к/ru
+      > Ukrainian/українська мова/uk
     #class remove eastslavic
 
     #class add southslavic
-      > Bulgarian/български език
-      > Croatian/hrvatski
-      > Macedonian/македонски јазик
-      > Serbian/srpski
-      > Slovenian/slovenščina
+      > Bulgarian/български език/bg
+      > Croatian/hrvatski/hr
+      > Macedonian/македонски јазик/mk
+      > Serbian/srpski/sr
+      > Slovenian/slovenščina/sl
       #class add historic
-        > Old Church Slavonic/словѣ́ньскъ ѩзꙑ́къ
+        > Old Church Slavonic/словѣ́ньскъ ѩзꙑ́къ/cu
       #class remove historic
     #class remove southslavic
 
     #class add westslavic
-      > Czech/čeština
-      > Polish/język polski
-      > Slovak/slovenčina 
+      > Czech/čeština/cs
+      > Polish/język polski/pl
+      > Slovak/slovenčina/sk
     #class remove westslavic
   #class remove slavic
+
+  #class add indoaryan
+    > Gujarati/ગુજરાતી/gu
+    > Hindustani/हिन्दुस्तानी/hi
+    > Kashmiri/कॉशुर/ks
+    > Lahnda/شاہ مکھی پنجابی/purple
+    > Nepali/नेपाली भाषा/ne
+    > Sanskrit/संस्कृतम्/sa
+    > Sindhi/सिन्धी/sd
+    > Punjabi/ਪੰਜਾਬੀ/pa
+  #class remove indoaryan
 #class remove ie
 
+#class add afroasiatic
+  > Amharic/አማርኛ/am
+  > Arabic/العَرَبِيةُ/ar
+  > Hausa/Hausa/ha
+  > Hebrew/עברית חדשה/he
+  > Oromo/Galla/om
+  > Somali/Af-Soomaali/so
+  > Berber/Tamaziɣt/purple
+#class remove afroasiatic
 
+#class add uralic
+  > Erzya/эрзянь кель/purple
+  > Estonian/eesti/et
+  > Finnish/suomi/fi
+  > Hungarian/magyar/hu
+  > Komi/Коми кыв/kv
+  > Northern Sami/davvisámegiella/se
+  > Southern Sami/Åarjelsaemien gïele/purple
+  > Ter Sami/saa´mekiill/
+  #class add historic
+    > Livonian/līvõ kēļ/purple
+  #class remove historic
+#class remove uralic
 
+#class add isolate
+  > Ainu/アィヌ・イタㇰ/purple
+  > Bangime/Baŋgɛri-mɛ/purple
+  > Basque/Euskara/eu
+  > Burushaski/ بروشسکی/purple
+  > Cofán/A'ingae/purple
+  > Korean/한국어/ko
+  > Mapudungun/Mapudungun/purple
+  > Nivkh/Нивхгу диф/purple
+  > Purépecha/P'urhépecha/purple
+  > Sandawe/Sandaweeki/purple
+  > Sumerian/eme-g̃ir/purple
+#class remove isolate
 
 
 
