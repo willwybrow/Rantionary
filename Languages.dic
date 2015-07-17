@@ -99,6 +99,9 @@
     > Sindhi/सिन्धी/sd
     > Punjabi/ਪੰਜਾਬੀ/pa
   #class remove indoaryan
+
+  > Albanian/shqip/sq
+  > Armenian/հայերեն/hy
 #class remove ie
 
 #class add afroasiatic
@@ -125,6 +128,85 @@
   #class remove historic
 #class remove uralic
 
+#class add dravidian
+  > Brahui/براہوئي/purple
+  > Kannada/ಕನ್ನಡ/kn
+  > Kurukh/कुड़ुख़/purple
+  > Malayalam/മലയാളം/ml
+  > Tamil/தமிழ்/ta
+  > Telugu/తెలుగు/te
+  > Tulu/ತುಳು ಭಾಷೆ/purple
+#class remove dravidian
+
+#class add austroasiatic
+  > Khmer/ភាសាខ្មែរ/km
+  > Khmu'/Kamhmu/purple
+  > Mon/ဘာသာ မန်/purple
+  > Muong/Thiểng Mường/purple
+  > Vietnamese/Tiếng Việt/vi
+#class remove austroasiatic
+  
+#class add eskimo
+  > Greenlandic/Kalaallisut/kl
+  > Inuktitut/ᐃᓄᒃᑎᑐᑦ/iu
+  > Inupiaq/Iñupiatun/ik
+  > Yupik/Yugtun/purple
+#class remove eskimo
+
+#class add austronesian
+  > Fijian/Na Vosa Vakaviti/fj
+  > Filipino/Tagalog/tl
+  > Indonesian/Bahasa Indonesia/id
+  > Malagasy/Malagasy/mg
+  > Malay/بهاس ملايو/ms
+  > Maori/Māori/mi
+  > Samoan/Gagana fa'a Sāmoa/sm
+  > Tetum/Lia-Tetun/purple
+  > Tongan/lea faka-Tonga/to
+#class remove austronesian
+
+#class add mongolic
+  > Mongolian/Монгол хэл/mn
+  > Oirat/Өөрд/purple
+#class remove mongolic
+
+#class add japonic
+  > Japanese/日本語/ja
+  > Okinawan/ウチナーグチ/purple
+#class remove japonic
+
+#class add turkic
+  > Azerbaijani/Azərbaycan dili/az
+  > Chuvash/Чăвашла/cv
+  > Crimean Tatar/Къырымтатар тили/purple
+  > Kazakh/qazaq tili/kk
+  > Kyrgyz/кыргызча/ky
+  > Nogai/Ногай тили/purple
+  > Tatar/татар теле/tt
+  > Turkish/Türkçe/tr
+  > Turkmen/түркменче/tk
+  > Uyghur/ئۇيغۇر تىلى/ug
+  > Uzbek/Oʻzbekcha/uz
+#class remove turkic
+
+#class add mayan
+  > Chol/Ch'ol/purple
+  > Chontal Maya/Yoko ochoco/purple
+  > Mam/Qyol Mam/purple
+  > Quiché/Qatzijob'al/purple
+  > Q'anjob'al/Kanjobal/purple
+  > Q'eqchi'/Kekchi/purple
+  > Tzeltal/Batz'il K'op/purple
+  > Tzotzil/Bats'i k'op/purple
+  > Yucatec/Màaya T'àan/purple
+#class remove mayan
+
+#class add utoaztecan
+  > Nahuatl/Nahuatlahtolli/purple
+  > Tarahumara/Rarámuri ra'ícha/purple
+  > Tepehuán/O'otham/purple
+#class remove utoaztecan
+
 #class add isolate
   > Ainu/アィヌ・イタㇰ/purple
   > Bangime/Baŋgɛri-mɛ/purple
@@ -138,6 +220,29 @@
   > Sandawe/Sandaweeki/purple
   > Sumerian/eme-g̃ir/purple
 #class remove isolate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
