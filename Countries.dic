@@ -1,4 +1,4 @@
-#version 3
+#version 2
 #name country
 #subs default
 
@@ -44,7 +44,7 @@
   > Niger
   > Nigeria
   > Rwanda
-  > São Tomé and Príncipe
+  > SÃ£o TomÃ© and PrÃ­ncipe
   > Sengal
   > Seychelles
   > Sierra Leone
@@ -150,7 +150,7 @@
   > British Virgin Islands
   > Cayman Islands
   > Cuba
-  > Curaçao
+  > CuraÃ§ao
   > Dominica
   > Dominican Republic
   > Grenada
@@ -161,7 +161,7 @@
   > Montserrat
   > Puerto Rico
   > Saba
-  > Saint Barthélemy
+  > Saint BarthÃ©lemy
   > Saint Kitts and Nevis
   > Saint Lucia
   > Saint Martin
