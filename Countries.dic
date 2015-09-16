@@ -148,7 +148,11 @@
   > Barbados
   > Bonaire
   > British Virgin Islands
+    | class british_overseas_territory
+  > Bermuda
+    | class british_overseas_territory
   > Cayman Islands
+    | class british_overseas_territory
   > Cuba
   > Curaçao
   > Dominica
@@ -159,6 +163,7 @@
   > Jamaica
   > Martinique
   > Montserrat
+    | class british_overseas_territory
   > Puerto Rico
   > Saba
   > Saint Barthélemy
@@ -263,14 +268,18 @@
 #class remove south_america
 
 > American Samoa
+> Akrotiri and Dhekelia
+  | class british_overseas_territory
 > Antarctica
 > Ashmore and Cartier Islands
   | pron Vnd
 > Bassas da India
   | pron d"i-"eI
-> Bermuda
 > Bouvet Island
+> British Antarctic Territory
+  | class british_overseas_territory
 > British Indian Ocean Territory
+  | class british_overseas_territory
 > Cayman Islands
 > Christmas Island
 > Clipperton Island
@@ -280,6 +289,7 @@
 > Dhekelia
 > Europa Island
 > Falkland Islands
+  | class british_overseas_territory
 > Faroe Islands
 > French Guiana
 > French Polynesia
@@ -287,6 +297,7 @@
   | pron Vnd
 > Gaza Strip
 > Gibraltar
+  | class british_overseas_territory
 > Glorioso Islands
 > Greenland
 > Guam
@@ -312,12 +323,14 @@
 > Northern Mariana Islands
 > Paracel Islands
 > Pitcairn Islands
+  | class british_overseas_territory
 > Reunion
 > Saint Helena
 > Saint Pierre and Miquelon
   | pron Vnd
 > South Georgia and the South Sandwich Islands
   | pron Vnd Di
+  | class british_overseas_territory
 > Spratly Islands
 > Svalbard
 > The Bahamas
@@ -325,6 +338,7 @@
 > Tromelin Island
 > Turks and Caicos Islands
   | pron Vnd
+  | class british_overseas_territory
 > Wake Island
 > Wallis and Futuna
   | pron Vnd
