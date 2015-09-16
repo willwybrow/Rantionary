@@ -19,7 +19,7 @@
   > Republic of Congo
   > Djibouti
   > Egypt
-    | class middle-east
+    | class middle_east
   > Equatorial Guinea
   > Eritrea
   > Ethiopia
@@ -63,7 +63,7 @@
 
 #class add asia
   > Afghanistan
-    | class middle-east
+    | class middle_east
   > Bangladesh
   > Bhutan
   > China
@@ -80,15 +80,15 @@
   > Sri Lanka
   > Taiwan
 
-  #class add central-asia
+  #class add central_asia
 	> Kazakhstan
     > Kyrgyzstan
     > Tajikistan
     > Turkmenistan
     > Uzbekistan
-  #class remove central-asia
+  #class remove central_asia
 
-  #class add southeast-asia
+  #class add southeast_asia
     > Brunei
     > Indonesia
       | class oceania
@@ -105,9 +105,9 @@
 	  > Thailand
 	  > Vietnam
 	#class remove indochina
-  #class remove south-east-asia
+  #class remove southeast_asia
 
-  #class add middle-east
+  #class add middle_east
     > Bahrain
     > Iran
     > Iraq
@@ -122,15 +122,15 @@
     > Syria
     > United Arab Emirates
     > Yemen
-  #class remove middle-east
+  #class remove middle_east
 #class remove asia
 
-#class add north-america
+#class add north_america
   > Canada
   > United States
-#class remove north-america
+#class remove north_america
 
-#class add central-america
+#class add central_america
   > Belize
   > Costa Rica
   > El Salvador
@@ -138,11 +138,11 @@
   > Honduras
   > Nicaragua
   > Panama
-#class remove central-america
+#class remove central_america
 
 #class add caribbean
   > Anguilla
-    | class british-territory
+    | class british_overseas_territory
   > Antigua and Barbuda
   > Aruba
   > Barbados
@@ -186,7 +186,7 @@
   > Bulgaria
   > Croatia
   > Cyprus
-    | class middle-east eurasia asia
+    | class middle_east eurasia asia
   > Czech Republic
   > Denmark
   > Estonia
@@ -224,7 +224,7 @@
   > Sweden
   > Switzerland
   > Turkey
-    | class middle-east
+    | class middle_east
   > Ukraine
   > United Kingdom
   > Vatican City
@@ -247,7 +247,7 @@
   > Vanuatu
 #class remove oceania
 
-#class add south-america
+#class add south_america
   > Argentina
   > Bolivia
   > Brazil
@@ -260,7 +260,7 @@
   > Suriname
   > Uruguay
   > Venezuela
-#class remove south-america
+#class remove south_america
 
 > American Samoa
 > Antarctica
