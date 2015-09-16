@@ -4,6 +4,7 @@
 
 #class add africa
   > Algeria
+    | class mediterranean
   > Angola
   > Benin
   > Botswana
@@ -19,7 +20,7 @@
   > Republic of Congo
   > Djibouti
   > Egypt
-    | class middle_east
+    | class middle_east mediterranean
   > Equatorial Guinea
   > Eritrea
   > Ethiopia
@@ -33,12 +34,14 @@
   > Lesotho
   > Liberia
   > Libya
+    | class mediterranean
   > Madagascar
   > Malawi
   > Mali
   > Mauritania
   > Mauritius
   > Morocco
+    | class mediterranean
   > Mozambique
   > Namibia
   > Niger
@@ -56,6 +59,7 @@
   > Tanzania
   > Togo
   > Tunisia
+    | class mediterranean
   > Uganda
   > Zambia
   > Zimbabwe
@@ -112,14 +116,18 @@
     > Iran
     > Iraq
     > Israel
+	  | class mediterranean
     > Jordan
     > Kuwait
     > Lebanon
+	  | class mediterranean
     > Oman
     > Palestine
+	  | class mediterranean
     > Qatar
     > Saudi Arabia
     > Syria
+	  | class mediterranean
     > United Arab Emirates
     > Yemen
   #class remove middle_east
@@ -179,6 +187,7 @@
 
 #class add europe
   > Albania
+    | class mediterranean
   > Andorra
   > Armenia
     | class asia eurasia
@@ -188,31 +197,39 @@
   > Belarus
   > Belgium
   > Bosnia and Herzegovina
+    | class mediterranean
   > Bulgaria
   > Croatia
+    | class mediterranean
   > Cyprus
-    | class middle_east eurasia asia
+    | class middle_east eurasia asia mediterranean
   > Czech Republic
   > Denmark
   > Estonia
   > Finland
   > France
+    | class mediterranean
   > Georgia
-   | class asia eurasia
+    | class asia eurasia
   > Germany
   > Greece
+    | class mediterranean
   > Hungary
   > Iceland
   > Ireland
   > Italy
+    | class mediterranean
   > Latvia
   > Liechtenstein
   > Lithuania
   > Luxembourg
   > Malta
+    | class mediterranean
   > Moldova
   > Monaco
+    | class mediterranean
   > Montenegro
+    | class mediterranean
   > Netherlands
   > Norway
   > Poland
@@ -225,11 +242,13 @@
   > Serbia
   > Slovakia
   > Slovenia
+    | class mediterranean
   > Spain
+    | class mediterranean
   > Sweden
   > Switzerland
   > Turkey
-    | class middle_east
+    | class middle_east mediterranean
   > Ukraine
   > United Kingdom
   > Vatican City
@@ -269,7 +288,7 @@
 
 > American Samoa
 > Akrotiri and Dhekelia
-  | class british_overseas_territory
+  | class british_overseas_territory mediterranean
 > Antarctica
 > Ashmore and Cartier Islands
   | pron Vnd
@@ -297,7 +316,7 @@
   | pron Vnd
 > Gaza Strip
 > Gibraltar
-  | class british_overseas_territory
+  | class british_overseas_territory mediterranean
 > Glorioso Islands
 > Greenland
 > Guam
