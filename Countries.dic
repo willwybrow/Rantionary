@@ -1,297 +1,332 @@
-#version 2
+#version 3
 #name country
 #subs default
 
 #class add africa
+  > Algeria
+  > Angola
+  > Benin
+  > Botswana
+  > Burkina Faso
+  > Burundi
+  > Cameroon
+  > Cape Verde
+  > Central African Republic
+  > Chad
+  > Comoros
   > Democratic Republic of the Congo
     | pron Vv Di
+  > Republic of Congo
+  > Djibouti
   > Egypt
+    | class middle-east
+  > Equatorial Guinea
+  > Eritrea
+  > Ethiopia
+  > Gabon
+  > Republic of Gambia
   > Ghana
+  > Guinea
+  > Guinea-Bissau
+  > Cote D'Ivoire
   > Kenya
+  > Lesotho
+  > Liberia
   > Libya
   > Madagascar
+  > Malawi
+  > Mali
+  > Mauritania
+  > Mauritius
   > Morocco
+  > Mozambique
+  > Namibia
   > Niger
   > Nigeria
-  > Republic of the Congo
-    | pron Vv Di
   > Rwanda
+  > São Tomé and Príncipe
+  > Sengal
+  > Seychelles
+  > Sierra Leone
   > Somalia
   > South Africa
+  > South Sudan
   > Sudan
+  > Swaziland
+  > Tanzania
+  > Togo
+  > Tunisia
+  > Uganda
+  > Zambia
+  > Zimbabwe
 #class remove africa
 
 #class add asia
   > Afghanistan
     | class middle-east
-  > Cambodia
+  > Bangladesh
+  > Bhutan
   > China
-  > Hong Kong
   > India
-  > Indonesia
-    | class oceania
   > Japan
-  > Kyrgyzstan
-  > Malaysia
+  > Maldives
   > Mongolia
   > Nepal
   > North Korea
-  > Singapore
+  > Pakistan
+  > Russia
+    | class eurasia europe
   > South Korea
+  > Sri Lanka
   > Taiwan
-  > Thailand
+
+  #class add central-asia
+	> Kazakhstan
+    > Kyrgyzstan
+    > Tajikistan
+    > Turkmenistan
+    > Uzbekistan
+  #class remove central-asia
+
+  #class add southeast-asia
+    > Brunei
+    > Indonesia
+      | class oceania
+    > Philippines
+    > Singapore
+    > Timor-Leste
+      | class oceania
+
+	#class add indochina
+      > Cambodia
+	  > Laos
+	  > Malaysia
+	  > Myanmar
+	  > Thailand
+	  > Vietnam
+	#class remove indochina
+  #class remove south-east-asia
+
+  #class add middle-east
+    > Bahrain
+    > Iran
+    > Iraq
+    > Israel
+    > Jordan
+    > Kuwait
+    > Lebanon
+    > Oman
+    > Palestine
+    > Qatar
+    > Saudi Arabia
+    > Syria
+    > United Arab Emirates
+    > Yemen
+  #class remove middle-east
 #class remove asia
 
+#class add north-america
+  > Canada
+  > United States
+#class remove north-america
+
 #class add central-america
+  > Belize
   > Costa Rica
+  > El Salvador
   > Guatemala
-  > Haiti
   > Honduras
   > Nicaragua
   > Panama
 #class remove central-america
 
+#class add caribbean
+  > Anguilla
+    | class british-territory
+  > Antigua and Barbuda
+  > Aruba
+  > Barbados
+  > Bonaire
+  > British Virgin Islands
+  > Cayman Islands
+  > Cuba
+  > Curaçao
+  > Dominica
+  > Dominican Republic
+  > Grenada
+  > Guadeloupe
+  > Haiti
+  > Jamaica
+  > Martinique
+  > Montserrat
+  > Puerto Rico
+  > Saba
+  > Saint Barthélemy
+  > Saint Kitts and Nevis
+  > Saint Lucia
+  > Saint Martin
+  > Saint Vincent and the Grenadines
+  > Sint Eustatius
+  > Sint maarten
+  > Trinidad and Tobago
+  > United States Virgin Islands
+#class remove carribean
+
 #class add europe
   > Albania
+  > Andorra
+  > Armenia
+    | class asia eurasia
+  > Azerbaijan
+    | class asia eurasia
   > Austria
+  > Belarus
   > Belgium
+  > Bosnia and Herzegovina
   > Bulgaria
+  > Croatia
+  > Cyprus
+    | class middle-east eurasia asia
+  > Czech Republic
   > Denmark
+  > Estonia
   > Finland
   > France
+  > Georgia
+   | class asia eurasia
   > Germany
   > Greece
   > Hungary
+  > Iceland
   > Ireland
   > Italy
   > Latvia
+  > Liechtenstein
   > Lithuania
   > Luxembourg
+  > Malta
+  > Moldova
+  > Monaco
+  > Montenegro
   > Netherlands
   > Norway
   > Poland
   > Portugal
+  > Republic of Macedonia
   > Romania
   > Russia
     | class asia eurasia
+  > San Marino
+  > Serbia
   > Slovakia
   > Slovenia
   > Spain
   > Sweden
   > Switzerland
   > Turkey
+    | class middle-east
+  > Ukraine
   > United Kingdom
+  > Vatican City
 #class remove europe
-
-#class add middle-east
-  > Iran
-  > Iraq
-  > Israel
-  > Pakistan
-  > Saudi Arabia
-  > Syria
-  > United Arab Emirates
-#class remove middle-east
 
 #class add oceania
   > Australia
-  > Guam
+  > Fiji
+  > Kiribati
+  > Marshall Islands
+  > Federated States of Micronesia
+  > Nauru
   > New Zealand
+  > Palau
   > Papua New Guinea
-  > Philippines
   > Samoa
   > Solomon Islands
+  > Tonga
+  > Tuvalu
+  > Vanuatu
 #class remove oceania
 
 #class add south-america
   > Argentina
+  > Bolivia
   > Brazil
   > Chile
   > Colombia
+  > Ecuador
+  > Guyana
+  > Paraguay
   > Peru
+  > Suriname
+  > Uruguay
+  > Venezuela
 #class remove south-america
 
-> Algeria
 > American Samoa
-> Andorra
-> Angola
-> Anguilla
 > Antarctica
-> Antigua and Barbuda
-  | pron Vnd
-> Armenia
-> Aruba
 > Ashmore and Cartier Islands
   | pron Vnd
-> Azerbaijan
-> Bahrain
-> Bangladesh
-> Barbados
 > Bassas da India
   | pron d"i-"eI
-> Belarus
-> Belize
-> Benin
 > Bermuda
-> Bhutan
-> Bolivia
-> Bosnia and Herzegovina
-  | pron Vnd
-> Botswana
 > Bouvet Island
 > British Indian Ocean Territory
-> British Virgin Islands
-> Brunei
-> Burkina Faso
-> Burma
-> Burundi
-> Cameroon
-> Cape Verde
 > Cayman Islands
-> Central African Republic
-> Chad
 > Christmas Island
 > Clipperton Island
 > Cocos Islands
-> Comoros
 > Cook Islands
 > Coral Sea Islands
-> Cote d'Ivoire
-> Croatia
-> Czech Republic
 > Dhekelia
-> Djibouti
-> Dominican Republic
-> Ecuador
-> El Salvador
-> Equatorial Guinea
-> Eritrea
-> Estonia
-> Ethiopia
 > Europa Island
 > Falkland Islands
 > Faroe Islands
-> Federated States of Micronesia
-  | pron Vv
-> Fiji
 > French Guiana
 > French Polynesia
 > French Southern and Antarctic Lands
   | pron Vnd
-> Gabon
 > Gaza Strip
-> Georgia
 > Gibraltar
 > Glorioso Islands
 > Greenland
-> Grenada
-> Guadeloupe
+> Guam
 > Guernsey
-> Guinea
-> Guinea-Bissau
-> Guyana
 > Heard Island and McDonald Islands
   | pron Vnd
 > Holy See
-> Iceland
 > Isle of Man
   | pron Vv
 > Jan Mayen
 > Jersey
-> Jordan
 > Juan de Nova Island
   | pron dV
-> Kazakhstan
-> Kiribati
-> Kuwait
-> Laos
-> Lebanon
-> Lesotho
-> Liberia
-> Liechtenstein
 > Macau
-> Macedonia
-> Malawi
-> Maldives
-> Mali
-> Malta
 > Marshall Islands
 > Martinique
-> Mauritania
-> Mauritius
 > Mayotte
-> Moldova
-> Monaco
-> Montserrat
-> Mozambique
-> Namibia
-> Nauru
 > Navassa Island
 > Netherlands Antilles
 > New Caledonia
 > Niue
 > Norfolk Island
 > Northern Mariana Islands
-> Oman
-> Palau
 > Paracel Islands
-> Paraguay
 > Pitcairn Islands
-> Puerto Rico
-> Qatar
 > Reunion
 > Saint Helena
-> Saint Kitts and Nevis
-  | pron Vnd
-> Saint Lucia
 > Saint Pierre and Miquelon
   | pron Vnd
-> Saint Vincent and the Grenadines
-  | pron Vnd Di
-> San Marino
-> Sao Tome and Principe
-  | pron Vnd
-> Senegal
-> Serbia and Montenegro
-  | pron Vnd
-> Seychelles
-> Sierra Leone
 > South Georgia and the South Sandwich Islands
   | pron Vnd Di
 > Spratly Islands
-> Sri Lanka
-> Suriname
 > Svalbard
-> Swaziland
-> Tajikistan
-> Tanzania
 > The Bahamas
-> The Gambia
-> Timor-Leste
-> Togo
 > Tokelau
-> Tonga
-> Trinidad and Tobago
-  | pron Vnd
 > Tromelin Island
-> Tunisia
-> Turkmenistan
 > Turks and Caicos Islands
   | pron Vnd
-> Tuvalu
-> Uganda
-> Ukraine
-> Uruguay
-> Uzbekistan
-> Vanuatu
-> Venezuela
-> Vietnam
-> Virgin Islands
 > Wake Island
 > Wallis and Futuna
   | pron Vnd
 > West Bank
 > Western Sahara
-> Yemen
-> Zambia
-> Zimbabwe
