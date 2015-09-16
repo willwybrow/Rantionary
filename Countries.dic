@@ -8,9 +8,11 @@
   > Angola
   > Benin
   > Botswana
+    | class commonwealth
   > Burkina Faso
   > Burundi
   > Cameroon
+    | class commonwealth
   > Cape Verde
   > Central African Republic
   > Chad
@@ -27,41 +29,57 @@
   > Gabon
   > Republic of Gambia
   > Ghana
+    | class commonwealth
   > Guinea
   > Guinea-Bissau
   > Cote D'Ivoire
   > Kenya
+    | class commonwealth
   > Lesotho
+    | class commonwealth
   > Liberia
   > Libya
     | class mediterranean
   > Madagascar
   > Malawi
+    | class commonwealth
   > Mali
   > Mauritania
   > Mauritius
+    | class commonwealth
   > Morocco
     | class mediterranean
   > Mozambique
+    | class commonwealth
   > Namibia
+    | class commonwealth
   > Niger
   > Nigeria
+    | class commonwealth
   > Rwanda
+    | class commonwealth
   > São Tomé and Príncipe
   > Sengal
   > Seychelles
+    | class commonwealth
   > Sierra Leone
+    | class commonwealth
   > Somalia
   > South Africa
+    | class commonwealth
   > South Sudan
   > Sudan
   > Swaziland
+    | class commonwealth
   > Tanzania
+    | class commonwealth
   > Togo
   > Tunisia
     | class mediterranean
   > Uganda
+    | class commonwealth
   > Zambia
+    | class commonwealth
   > Zimbabwe
 #class remove africa
 
@@ -69,19 +87,24 @@
   > Afghanistan
     | class middle_east
   > Bangladesh
+    | class commonwealth
   > Bhutan
   > China
   > India
+    | class commonwealth
   > Japan
   > Maldives
+    | class commonwealth
   > Mongolia
   > Nepal
   > North Korea
   > Pakistan
+    | class commonwealth
   > Russia
     | class eurasia europe
   > South Korea
   > Sri Lanka
+    | class commonwealth
   > Taiwan
 
   #class add central_asia
@@ -94,10 +117,12 @@
 
   #class add southeast_asia
     > Brunei
+	  | class commonwealth
     > Indonesia
       | class oceania
     > Philippines
     > Singapore
+	  | class commonwealth
     > Timor-Leste
       | class oceania
 
@@ -105,6 +130,7 @@
       > Cambodia
 	  > Laos
 	  > Malaysia
+	    | class commonwealth
 	  > Myanmar
 	  > Thailand
 	  > Vietnam
@@ -135,11 +161,13 @@
 
 #class add north_america
   > Canada
+    | class commonwealth
   > United States
 #class remove north_america
 
 #class add central_america
   > Belize
+    | class commonwealth
   > Costa Rica
   > El Salvador
   > Guatemala
@@ -152,8 +180,12 @@
   > Anguilla
     | class british_overseas_territory
   > Antigua and Barbuda
+    | class commonwealth
   > Aruba
+  > Bahamas
+    | class commonwealth
   > Barbados
+    | class commonwealth
   > Bonaire
   > British Virgin Islands
     | class british_overseas_territory
@@ -164,11 +196,14 @@
   > Cuba
   > Curaçao
   > Dominica
+    | class commonwealth
   > Dominican Republic
   > Grenada
+    | class commonwealth
   > Guadeloupe
   > Haiti
   > Jamaica
+    | class commonwealth
   > Martinique
   > Montserrat
     | class british_overseas_territory
@@ -176,12 +211,16 @@
   > Saba
   > Saint Barthélemy
   > Saint Kitts and Nevis
+    | class commonwealth
   > Saint Lucia
+    | class commonwealth
   > Saint Martin
   > Saint Vincent and the Grenadines
+    | class commonwealth
   > Sint Eustatius
   > Sint maarten
   > Trinidad and Tobago
+    | class commonwealth
   > United States Virgin Islands
 #class remove carribean
 
@@ -202,7 +241,7 @@
   > Croatia
     | class mediterranean
   > Cyprus
-    | class middle_east eurasia asia mediterranean
+    | class middle_east eurasia asia mediterranean commonwealth
   > Czech Republic
   > Denmark
   > Estonia
@@ -224,7 +263,7 @@
   > Lithuania
   > Luxembourg
   > Malta
-    | class mediterranean
+    | class mediterranean commonwealth
   > Moldova
   > Monaco
     | class mediterranean
@@ -251,24 +290,36 @@
     | class middle_east mediterranean
   > Ukraine
   > United Kingdom
+    | class commonwealth
   > Vatican City
 #class remove europe
 
 #class add oceania
   > Australia
+    | class commonwealth
   > Fiji
+    | class commonwealth
   > Kiribati
+    | class commonwealth
   > Marshall Islands
   > Federated States of Micronesia
   > Nauru
+    | class commonwealth
   > New Zealand
+    | class commonwealth
   > Palau
   > Papua New Guinea
+    | class commonwealth
   > Samoa
+    | class commonwealth
   > Solomon Islands
+    | class commonwealth
   > Tonga
+    | class commonwealth
   > Tuvalu
+    | class commonwealth
   > Vanuatu
+    | class commonwealth
 #class remove oceania
 
 #class add south_america
@@ -279,6 +330,7 @@
   > Colombia
   > Ecuador
   > Guyana
+    | class commonwealth
   > Paraguay
   > Peru
   > Suriname
@@ -352,7 +404,6 @@
   | class british_overseas_territory
 > Spratly Islands
 > Svalbard
-> The Bahamas
 > Tokelau
 > Tromelin Island
 > Turks and Caicos Islands
