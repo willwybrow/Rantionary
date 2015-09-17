@@ -1,0 +1,428 @@
+#version 2
+#name city
+#subs default
+
+#class add africa
+  #class add Algeria
+	> Algiers
+	  | class medium capital
+	> Oran
+	  | class medium
+	> Constantine
+	  | class medium
+  #class remove Algeria
+  #class add Angola
+    > Luanda
+	  | class medium capital
+	> Cabinda
+	  | class small
+	> Huambo
+	  | class small
+  #class remove Angola
+  #class add Benin
+	> Cotonou
+	  | class medium
+    > Porto-Novo
+	  | class small capital
+    > Parakou
+	  | class small
+  #class remove Benin
+  #class add Botswana
+    > Gaborone
+	  | class small capital
+	> Francistown
+	  | class small
+	> Molepolole
+	  | class small
+  #class remove Botswana
+  #class add Burkina_Faso
+    > Ouagadougou
+	  | class medium capital
+	> Bobo Dioulasso
+	  | class medium
+	> Banfora
+	  | class small
+  #class remove Burkina_Faso
+  #class add Burundi
+    > Bujumbura
+	  | class small capital
+	> Gitega
+	  | class small
+	> Muyinga
+	  | class small
+  #class remove Burundi
+  #class add Cameroon
+    > Douala
+	  | class medium
+	> Yaoundé
+	  | class medium capital
+	> Bamenda
+	  | class small
+  #class remove Cameroon
+  #class add Cape_Verde
+    > Praia
+	  | class small capital
+	> Mindelo
+	  | class small
+	> Assomada
+	  | class small
+  #class remove Cape_Verde
+  #class add Central_African_Republic
+    > Bandui
+	  | class medium capital
+	> Bimbo
+	  | class small
+	> Berbérati
+	  | class small
+  #class remove Central_African_Republic
+  #class add Chad
+    > N'Djamena
+	  | class medium capital
+	> Moundou
+	  | class small
+	> Sarh
+	  | class small
+  #class remove Chad
+  #class add Comoros
+    > Moroni
+	  | class small capital
+  #class remove Comoros
+  #class add Democratic_Republic_of_the_Congo
+    > Kinshasa
+	  | class large capital
+	> Lumumbashi
+	  | class medium
+	> Mbuji-Mayi
+	  | class medium
+  #class remove Democratic_Republic_of_the_Congo
+  #class add Republic_of_Congo
+    > Brazzaville
+	  | class medium capital
+	> Pointe-Noire
+	  | class medium
+	> Dolisie
+	  | class small
+  #class remove Republic_of_Congo
+  #class add Djibouti
+    > Djibouti City
+	  | class medium capital
+	> Ali Sabieh
+	  | class small
+	> Tadjourah
+	  | class small
+  #class remove Djibouti
+  #class add Egypt
+    > Cairo
+	  | class large capital
+	> Alexandria
+	  | class large
+	> Giza
+	  | class medium
+  #class remove Egypt
+  #class add Equatorial_Guinea
+    > Bata
+	  | class small
+	> Malabo
+	  | class small capital
+	> Ebebiyin
+	  | class small
+  #class remove Equatorial_Guinea
+  #class add Eritrea
+    > Asmara
+	  | class medium capital
+	> Keren
+	  | class small
+	> Teseney
+	  | class small
+  #class remove Eritrea
+  #class add Ethiopia
+    > Addis Ababa
+	  | class medium capital
+	> Adama
+	  | class small
+	> Gondar
+	  | class small
+  #class remove Ethiopia
+  #class add Gabon
+    > Libreville
+	  | class medium capital
+	> Port-Gentil
+	  | class small
+	> Masuku
+	  | class small
+  #class remove Gabon
+  #class add Republic_of_Gambia
+    > Serre Kunga
+	  | class small
+	> Banjul
+	  | class small capital
+	> Brikama
+	  | class small
+  #class remove Republic_of_Gambia
+  #class add Ghana
+    > Accra
+	  | class medium capital
+	> Kumasi
+	  | class small
+	> Tamale
+	  | class small
+  #class remove Ghana
+  #class add Guinea
+  > Conakry
+    | class medium
+  > Nzérékoré
+    | class small
+  > Kindia
+    | class small capital
+  #class remove Guinea
+  #class add Guinea_Bissau
+    > Bissau
+	  | class small
+	> Bafatá
+	  | class small
+	> Gabú
+	  | class small
+  #class remove Guinea_Bissau
+  #class add Côte d'Ivoire
+    > Abidjan
+	  | class medium
+	> Abobo
+	  | class medium
+    > Yamoussoukro
+      | class small capital
+  #class remove Côte d'Ivoire
+  #class add Kenya
+    > Nairobi
+	  | class medium capital
+    > Mombasa
+	  | class medium
+	>Nakuru
+	  | class small
+  #class remove Kenya
+  #class add Lesotho
+    > Maseru
+	  | class small capital
+	> Mafeteng
+	  | class small
+	> Hlotse
+	  | class small
+  #class remove Lesotho
+  #class add Liberia
+    > Monrovia
+	  | class medium capital
+	> Gbarnga
+	  | class small
+	> Kakata
+	  | class small
+  #class remove Liberia
+  #class add Libya
+    > Tripoli
+	  | class medium capital
+	> Benghazi
+	  | class medium
+	> Misratah
+	  | class small
+  #class remove Libya
+  #class add Madagascar
+    > Antananarivo
+	  | class medium capital
+	> Toamasina
+	  | class small
+	> Antsirabe
+	  | class small
+  #class remove Madagascar
+  #class add Malawi
+    > Lilongwe
+	  | class medium capital
+	> Blantyre
+	  | class medium
+	> Mzuzu
+	  | class medium
+  #class remove Malawi
+  #class add Mali
+    > Bamako
+	  | class medium capital
+	> Sikasso
+	  | class small
+	> Mopti
+	  | class small
+  #class remove Mali
+  #class add Mauritania
+    > Nouakchott
+	  | class medium capital
+	> Nouadhibou
+	  | class small
+	> Nema
+	  | class small
+  #class remove Mauritania
+  #class add Mauritius
+    > Port Louis
+	  | class small capital
+	> Vacoas
+	  | class small
+	> Curepipe
+	  | class small
+  #class remove Mauritius
+  #class add Morocco
+    > Casablanca
+	  | class medium
+	> Rabat
+	  | class medium capital
+	> Fes
+	  | class medium
+  #class remove Morocco
+  #class add Mozambique
+    > Maputo
+	  | class medium capital
+	> Matola
+	  | class medium
+	> Beira
+	  | class medium
+  #class remove Mozambique
+  #class add Namibia
+    > Windhoek
+	  | class small capital
+	> Rundu
+	  | class small
+	> Walvis Bay
+	  | class small
+  #class remove Namibia
+  #class add Niger
+    > Niamey
+	  | class medium capital
+	> Zinder
+	  | class small
+	> Maradi
+	  | class small
+  #class remove Niger
+  #class add Nigeria
+    > Lagos
+	  | class large
+	> Kano
+	  | class medium
+	> Abuja
+	  | class medium capital
+  #class remove Nigeria
+  #class add Rwanda
+    > Kigali
+	  | class medium capital
+	> Butare
+	  | class small
+	> Gitarama
+	  | class small
+  #class remove Rwanda
+  #class add Sao_Tome_and_Principe
+    > São Tomé
+	  | class small capital
+	> Trindade
+	  | class small
+	> Neves
+	  | class small
+  #class remove Sao_Tome_and_Principe
+  #class add Senegal
+    > Dakar
+	  | class medium capital
+	> Diourbel
+	  | class medium
+	> Fatick
+	  | class medium
+  #class remove Senegal
+  #class add Seychelles
+    > Victoria
+	  | class small capital
+  #class remove Seychelles
+  #class add Sierra Leone
+    > Freetown
+	  | class medium capital
+	> Bo
+	  | class small
+	> Kenema
+	  | class small
+  #class remove Sierra Leone
+  #class add Somalia
+    > Mogadishu
+	  | class medium capital
+	> Hargeysa
+	  | class small
+	> Berbera
+	  | class small
+  #class remove Somalia
+  #class add South Africa
+    > Cape Town
+	  | class medium capital
+	> Pretoria
+	  | class medium capital
+	> Bloemfontein
+	  | class small capital
+  #class remove South Africa
+  #class add South Sudan
+    > Juba
+	  | class small capital
+	> Malakal
+	  | class small
+	> Wau
+	  | class small
+  #class remove South Sudan
+  #class add Sudan
+    > Khartoum
+	  | class medium capital
+	> Omdurman
+	  | class medium
+	> Port Sudan
+	  | class small
+  #class remove Sudan
+  #class add Swaziland
+    > Manzini
+	  | class small
+	> Mbabane
+	  | class small capital
+	> Big Bend
+	  | class small
+  #class remove Swaziland
+  #class add Tanzania
+    > Dar es Salaam
+	  | class medium capital
+	> Mwanza
+	  | class small
+  #class remove Tanzania
+  #class add Togo
+    > Lomé
+	  | class medium capital
+	> Sokode
+	  | class small
+	> Kara
+	  | class small
+  #class remove Togo
+  #class add Tunisia
+    > Tunis
+	  | class medium capital
+	> Sfax
+	  | class small
+	> Sousse
+	  | class small
+  #class remove Tunisia
+  #class add Uganda
+    > Kampala
+	  | class medium capital
+	> Gulu
+	  | class small
+	> Lira
+	  | class small
+  #class remove Uganda
+  #class add Zambia
+    > Lusaka
+	  | class medium capital
+	> Kitwe
+	  | class small
+	> Ndola
+	  | class small
+  #class remove Zambia
+  #class add Zimbabwe
+    > Harare
+	  | class medium capital
+	> Bulawayo
+	  | class medium
+	> Chitungwiza
+	  | class small
+  #class remove Zimbabwe
+#class remove africa
