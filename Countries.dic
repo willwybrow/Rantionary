@@ -162,6 +162,7 @@
 #class add north_america
   > Canada
     | class commonwealth
+  > Mexico
   > United States
 #class remove north_america
 
