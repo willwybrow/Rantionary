@@ -1,0 +1,12 @@
+#version 2
+#name ask
+#subs simple ing ed s er pp noun
+
+> ask/asking/asked/asks/asker/asked/asking
+> enquire/enquiring/enquired/enquires/enquirer/enquired/enquiring
+> implore/imploring/implored/implores/implorer/implored/imploring
+> interrogate/interrogating/interrogated/interrogates/interrogator/interrogated/interrogating
+> query/querying/queried/queries/querier/queried/querying
+> question/questioning/questioned/questions/questioner/questioned/questioning
+> quiz/quizzing/quizzed/quizzes/quizzer/quizzed/quizzing
+> request/requesting/requested/requests/requestor/requested/requesting
