@@ -4,12 +4,19 @@
 
 #class add game
   #class add sport
-    > Baseball
-    > Basketball
-    > Football
-    > Golf
-    > Soccer
-    > Tennis
+    > american football
+    > badminton
+    > baseball
+    > basketball
+    > cricket
+    > field hockey
+    > football
+    > golf
+    > handball
+    > ice hockey
+    > rugby
+    > squash
+    > tennis
   #class remove sport
 
   #class add video
