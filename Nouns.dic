@@ -368,6 +368,61 @@
   > stool/stools
 #class remove furniture
 
+#class add instrument
+  > accordion/accordions
+  > acoustic guitar/acoustic guitars
+  > bagpipes/bagpipes
+  > balalaika/balalaikas
+  > banjo/banjos
+  > bass guitar/bass guitars
+  > bassoon/bassoons
+  > bongo/bongos
+  > bugle/bugles
+  > cello/cellos
+  > clarinet/clarinets
+  > double bass/double basses
+  > double guitar/double guitars/
+  > drum kit/drum kits
+  > dube/dubes
+  > electric guitar/electric guitars
+  > euphonium/euphoniums
+  > guitar/guitars
+  > grand piano/grand pianos
+  > fiddle/fiddles
+  > harmonica/harmonicas
+  > harp/harps
+  > harpsichord/harpsichords
+  > holophonor/holophonors
+  > hurdy-gurdy/hurdy-gurdies
+  > jug/jugs
+  > kazoo/kazoos
+  > keyboard/keyboards
+  > mandolin/mandolins
+  > marimba/marimbas
+  > melodica/melodicas
+  > Norwegian keyed fiddle/Norwegian keyed fiddles
+  > oboe/oboes
+  > piano/pianos
+  > pipe organ/pipe organs
+  > recorder/recorders
+  > saxophone/saxophones
+  > slide whistle/slide whistles
+  > synthesizer/synthesizers
+  > tambourine/tambourines
+  > theremin/theremins
+  > triangle/triangles
+  > trombone/trombones
+  > trumpet/trumpets
+  > tuba/tubas
+  > ukulele/ukuleles
+  > viola/violas
+  > violin/violins
+  > wobble board/wobble boards
+  > wood block/wood blocks
+  > xylophone/xylophones
+  > zither/zithers
+#class remove instrument
+
 #class add job
   > accountant/accountants
   > actor/actors
