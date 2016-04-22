@@ -1,4 +1,4 @@
-#version 2
+#version 3
 #name city
 #subs default
 
@@ -426,3 +426,118 @@
 	  | class small
   #class remove Zimbabwe
 #class remove africa
+
+#class add south_america
+	#class add argentina
+		> Buenos Aires
+			| class medium capital
+		> Cordoba
+			| class medium
+		> Rosario
+			| class medium
+	#class remove argentina
+	#class add bolivia
+		> Santa Cruz
+			| class medium
+		> El Alto
+			| class medium
+		> La Paz
+			| class medium capital
+	#class remove bolivia
+	#class add brazil
+		> São Paulo
+			| class large
+		> Rio de Janeiro
+			| class large
+		> Salvador
+			| class medium
+	#class remove brazil
+	#class add chile
+		> Santiago
+			| class large capital
+		> Puente Alto
+			| class medium
+		> Antofagasta
+			| class small
+	#class remove chile
+	#class add colombia
+		> Bogotá
+			| class large capital
+		> Medellin
+			| class medium
+		> Cali
+			| class medium
+	#class remove colombia
+	#class add ecuador
+		> Guayaquil
+			| class medium
+		> Quito
+			| class medium capital
+		> Cuenca
+			| class small
+	#class remove ecuador
+	#class add falkland_islands
+		> Stanley
+			| class small capital
+		> Goose Green
+			| class small
+		> Port Howard
+			| class small
+	#class remove falkland_islands
+	#class add french_guiana
+		> Cayenne
+			| class small capital
+		> Saint-Laurent-du-Maroni
+			| class small
+		> Kourou
+			| class small
+	#class remove french_guiana
+	#class add guyana
+		> Georgetown
+			| class small capital
+		> Linden
+			| class small
+		> New Amsterdam
+			| class small
+	#class remove guyana
+	#class add paraguay
+		> Asunción
+			| class medium capital
+		> Ciudad del Este
+			| class small
+		> San Lorenzo
+			| class small
+	#class remove paraguay
+	#class add peru
+		> Lima
+			| class large capital
+		> Arequipa
+			| class medium
+		> Trujillo
+			| class medium
+	#class remove peru
+	#class add suriname
+		> Paramaribo
+			| class small capital
+		> Lelydorp
+			| class small
+		> Nieuw Nickerie
+			| class small
+	#class remove suriname
+	#class add uruguay
+		> Montevideo
+			| class medium capital
+		> Salto
+			| class small
+		> Ciudad de la Costa
+			| class small
+	#class remove uruguay
+	#class add venezuela
+		> Caracas
+			| class large capital
+		> Maracaibo
+			| class medium
+		> Valencia
+			| class medium
+	#class remove venezuela
+#class remove south_america
