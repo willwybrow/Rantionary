@@ -541,3 +541,154 @@
 			| class medium
 	#class remove venezuela
 #class remove south_america
+
+#class add north_america
+	#class add anguilla
+		> The Valley
+			| class small capital
+		> North Side
+			| class small
+	#class remove anguilla
+	#class add antigua_and_barbuda
+		> Saint Johns
+			| class small capital
+	#class remove antigua_and_barbuda
+	#class add aruba
+		> Sint Nicolas
+			| class small
+	#class remove aruba
+	#class add bahamas
+		> Nassau
+			| class small capital
+		> Freeport
+			| class small
+		> West End
+			| class small
+	#class remove bahamas
+	#class add barbados
+		> Bridgetown
+			| class small capital
+	#class remove barbados
+	#class add belize
+		> Belize
+			| class small
+		> San Ignacio
+			| class small
+		> Orange Walk
+			| class small
+	#class remove belize
+	#class add bermuda
+		> Hamilton
+			| class small capital
+	#class remove bermuda
+	#class add british_virgin_islands
+		> Road Town
+			| class small capital
+	#class remove british_virgin_islands
+	#class add canada
+		> Ottowa
+			| class medium capital
+		> Toronto
+			| class medium
+		> Montreal
+			| class medium
+		> Calgary
+			| class medium
+	#class remove canada
+	#class add cayman_islands
+		> George Town
+			| class small capital
+		> West Bay
+			| class small
+	#class remove cayman_islands
+	#class add costa_rica
+		> San José
+			| class small capital
+		> Limon
+			| class small
+		> Alajuela
+			| class small
+	#class remove costa_rica
+	#class add cuba
+		> Havana
+			| class medium capital
+		> Santiago de Cuba
+			| class medium
+		> Camaguey
+			| class small
+	#class remove cuba
+	#class add curacao
+		> Willemstad
+			| class small capital
+		> Sint Michiel
+			| class small
+	#class remove curacao
+	#class add dominica
+		> Roseau
+			| class small capital
+	#class remove dominica
+	#class add dominican_republic
+		> Santo Domingo
+			| class medium capital
+		> Santiago
+			| class medium
+		> San Pedro de Macoris
+			| class small
+	#class remove dominican_republic
+	#class add el_salvador
+		> San Salvador
+			| class medium capital
+		> Soyapango
+			| class small
+		> Santa Ana
+			| class small
+	#class remove el_salvador
+	#class add greenland
+		> Nuuk
+			| class small capital
+		> Sisimiut
+			| class small
+		> Ilulissat
+			| class small
+	#class remove greenland
+	#class add grenada
+		> St George's
+			| class small capital
+		> Gouyave
+			| class small
+		> Grenville
+			| class small
+	#class remove grenada
+	#class add guadeloupe
+		> Les Abymes
+			| class small
+		> Baie-Mahault
+			| class small
+		> Le Gosier
+			| class small
+	#class remove guadeloupe
+	#class add guatemala
+		> Guatemala
+			| class medium capital
+		> Mixco
+			| class small
+		> Villa Nueva
+			| class small
+	#class remove guatemala
+	#class add mexico
+		> Mexico City
+			| class large capital
+		> Iztapalapa
+			| class medium
+		> Ecatepec de Morelos
+			| class medium
+	#class remove mexico
+	#class add united_states
+		> New York
+			| class large
+		> Washington
+			| class small capital
+		> Los Angeles
+			| class medium
+	#class remove guatemala
+#class remove north_america
