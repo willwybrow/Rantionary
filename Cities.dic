@@ -54,7 +54,7 @@
   #class add Cameroon
     > Douala
 	  | class medium
-	> Yaoundé
+	> YaoundÃ©
 	  | class medium capital
 	> Bamenda
 	  | class small
@@ -72,7 +72,7 @@
 	  | class medium capital
 	> Bimbo
 	  | class small
-	> Berbérati
+	> BerbÃ©rati
 	  | class small
   #class remove Central_African_Republic
   #class add Chad
@@ -170,7 +170,7 @@
   #class add Guinea
   > Conakry
     | class medium
-  > Nzérékoré
+  > NzÃ©rÃ©korÃ©
     | class small
   > Kindia
     | class small capital
@@ -178,19 +178,19 @@
   #class add Guinea_Bissau
     > Bissau
 	  | class small
-	> Bafatá
+	> BafatÃ¡
 	  | class small
-	> Gabú
+	> GabÃº
 	  | class small
   #class remove Guinea_Bissau
-  #class add Côte d'Ivoire
+  #class add CÃ´te d'Ivoire
     > Abidjan
 	  | class medium
 	> Abobo
 	  | class medium
     > Yamoussoukro
       | class small capital
-  #class remove Côte d'Ivoire
+  #class remove CÃ´te d'Ivoire
   #class add Kenya
     > Nairobi
 	  | class medium capital
@@ -312,7 +312,7 @@
 	  | class small
   #class remove Rwanda
   #class add Sao_Tome_and_Principe
-    > São Tomé
+    > SÃ£o TomÃ©
 	  | class small capital
 	> Trindade
 	  | class small
@@ -386,7 +386,7 @@
 	  | class small
   #class remove Tanzania
   #class add Togo
-    > Lomé
+    > LomÃ©
 	  | class medium capital
 	> Sokode
 	  | class small
@@ -445,7 +445,7 @@
 			| class medium capital
 	#class remove bolivia
 	#class add brazil
-		> São Paulo
+		> SÃ£o Paulo
 			| class large
 		> Rio de Janeiro
 			| class large
@@ -461,7 +461,7 @@
 			| class small
 	#class remove chile
 	#class add colombia
-		> Bogotá
+		> BogotÃ¡
 			| class large capital
 		> Medellin
 			| class medium
@@ -501,7 +501,7 @@
 			| class small
 	#class remove guyana
 	#class add paraguay
-		> Asunción
+		> AsunciÃ³n
 			| class medium capital
 		> Ciudad del Este
 			| class small
