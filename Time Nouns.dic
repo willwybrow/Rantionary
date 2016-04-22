@@ -46,6 +46,13 @@
   > September/Septembers
 #class remove month
 
+#class add season
+  > autumn/autumns
+  > spring/springs
+  > summer/summers
+  > winter/winters
+#class remove season
+
 #class add timeofday
   > afternoon/afternoons
     | pron %{f-t3`-n"un/%{f-t3`-n"unz

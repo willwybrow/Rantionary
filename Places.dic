@@ -90,17 +90,26 @@
     > warehouse/warehouses
       | pron w"err-h%aUs/w"err-h%aU-sIz
     #class add retail
+      > boutique/boutiques
       > cornershop/cornershops
       > emporium/emporia
+      > farmers' market/farmers' markets
       > kiosk/kiosks
       > market/markets
       > mall/malls
+      > newsagent/newsagents
       > shop/shops
+      > stall/stalls
       > store/stores
       > supermarket/supermarkets
       > wholesale depot/wholesale depots
     #class remove retail
   #class remove building
+
+  #class add retail
+    > e-tailer/e-tailers
+    > vending machine/vending machines
+  #class remove retail
 
   #class add natural
     > cave/caves

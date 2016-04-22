@@ -1,28 +1,28 @@
 #version 2
 #name quality
-#subs property more less est least
+#subs property more less est least adj
 
 #class add human
-  > age/older/younger/oldest/youngest
-  > ethnicity/more ethnic/less ethnic/most ethnic/least ethnic
-  > honesty/more truthful/less truthful/most truthful/least truthful
-  > sexy/sexier/less sexy/sexiest/unsexiest
-  > race/racier/less racy/raciest/least racy
+  > age/older/younger/oldest/youngest/old
+  > ethnicity/more ethnic/less ethnic/most ethnic/least ethnic/ethnic
+  > honesty/more truthful/less truthful/most truthful/least truthful/honest
+  > sexiness/sexier/less sexy/sexiest/unsexiest/sexy
+  > race/racier/less racy/raciest/least racy/racy
 #class remove human
 
 #class add physical
-  > colour/more colorful/duller/most colorful/least colourful
-  > force/harder/softer/hardest/softest
-  > girth/girthier/less girthy/girthiest/least girthy
-  > height/taller/shorter/tallest/shortest
-  > length/longer/shorter/longest/shortest
-  > luminosity/brighter/darker/brightest/darkest
-  > power level/more powerful/weaker/most powerful/least powerful
-  > size/bigger/smaller/biggest/smallest
-  > speed/faster/slower/fastest/slowest
-  > strength/stronger/weaker/strongest/weakest
-  > weight/heavier/lighter/heaviest/lightest
-  > wetness/wetter/drier/wettest/driest
-  > width/wider/thinner/widest/thinnest
+  > colour/more colorful/duller/most colorful/least colourful/colourful
+  > force/harder/softer/hardest/softest/forceful
+  > girth/girthier/less girthy/girthiest/least girthy/girthy
+  > height/taller/shorter/tallest/shortest/short
+  > length/longer/shorter/longest/shortest/long
+  > luminosity/brighter/darker/brightest/darkest/bright
+  > power level/more powerful/weaker/most powerful/least powerful/powerful
+  > size/bigger/smaller/biggest/smallest/big
+  > speed/faster/slower/fastest/slowest/fast
+  > strength/stronger/weaker/strongest/weakest/strong
+  > weight/heavier/lighter/heaviest/lightest/heavy
+  > wetness/wetter/drier/wettest/driest/wet
+  > width/wider/thinner/widest/thinnest/wide
 #class remove physical
 

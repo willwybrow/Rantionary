@@ -149,6 +149,9 @@
 > Rumble
 > Singed
 > Yorick
+  #class add adc
+  > Mordekaiser
+  #class remove adc
   #class add mid
   > Cho'Gath
   > Jayce
