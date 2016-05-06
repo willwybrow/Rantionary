@@ -692,3 +692,918 @@
 			| class medium
 	#class remove guatemala
 #class remove north_america
+
+#class add europe
+	#class add albania
+		> Tirana
+			| class small capital
+		> Durres
+			| class small
+		> Elbasan
+			| class small
+	#class remove albania
+	#class add andorra
+		> Andorra la Vella
+			| class small capital
+		> Les Escaldes
+			| class small
+		> Encamp
+			| class small
+	#class remove andorra
+	#class add armenia
+		> Yerevan
+			| class medium capital
+		> Gyumri
+			| class small
+		> Vanadzor
+			| class small
+	#class remove armenia
+	#class add austria
+		> Vienna
+			| class medium capital
+		> Graz
+			| class small
+		> Linz
+			| class small
+	#class remove austria
+	#class add azerbaijan
+		> Baku
+			| class medium capital
+		> Ganca
+			| class small
+		> Sumqayit
+			| class small
+	#class remove azerbaijan
+	#class add belarus
+		> Minsk
+			| class medium capital
+		> Homjel
+			| class small
+		> Mahiljow
+			| class small
+	#class remove belarus
+	#class add belgium
+		> Brussels
+			| class medium capital
+		> Antwerp
+			| class small
+		> Gent
+			| class small
+	#class remove belgium
+	#class add bosnia_and_herzegovina
+		> Sarajevo
+			| class small capital
+		> Zenica
+			| class small
+		> Banja Luka
+			| class small
+	#class remove bosnia_and_herzegovina
+	#class add bulgaria
+		> Sofia
+			| class medium capital
+		> Plovdiv
+			| class small
+		> Varna
+			| class small
+	#class remove bulgaria
+	#class add croatia
+		> Zagreb
+			| class medium capital
+		> Split
+			| class small
+		> Rijeka
+			| class small
+	#class remove croatia
+	#class add cyprus
+		> Nicosia
+			| class small capital
+		> Lemesos
+			| class small
+		> Larnaca
+			| class small
+	#class remove cyprus
+	#class add czech_republic
+		> Prague
+			| class medium capital
+		> Brno
+			| class small
+		> Ostrava
+			| class small
+	#class remove czech_republic
+	#class add denmark
+		> Copenhagen
+			| class medium capital
+		> Arhus
+			| class small
+		> Odense
+			| class small
+	#class remove denmark
+	#class add estonia
+		> Tallinn
+			| class small capital
+		> Tartu
+			| class small
+		> Narva
+			| class small
+	#class remove estonia
+	#class add finland
+		> Helsinki
+			| class medium capital
+		> Espoo
+			| class small
+		> Tampere
+			| class small
+	#class remove finland
+	#class add france
+		> Paris
+			| class medium capital
+		> Marseille
+			| class medium
+		> Lyon
+			| class small
+	#class remove france
+	#class add georgia
+		> Atlanta
+			| class small
+		> Augusta
+			| class small
+		> Columbus
+			| class small
+	#class remove georgia
+	#class add germany
+		> Berlin
+			| class medium capital
+		> Hamburg
+			| class medium
+		> Munich
+			| class medium
+	#class remove germany
+	#class add greece
+		> Athens
+			| class medium capital
+		> Thessaloniki
+			| class small
+		> Piraieus
+			| class small
+	#class remove greece
+	#class add hungary
+		> Budapest
+			| class medium capital
+		> Debrecen
+			| class small
+		> Miskolc
+			| class small
+	#class remove hungary
+	#class add iceland
+		> Reykjavik
+			| class small capital
+		> Kopavogur
+			| class small
+		> Hafnarfjordhur
+			| class small
+	#class remove iceland
+	#class add ireland
+		> Dublin
+			| class medium capital
+		> Cork
+			| class small
+		> Limerick
+			| class small
+	#class remove ireland
+	#class add italy
+		> Rome
+			| class medium capital
+		> Milan
+			| class medium
+		> Naples
+			| class medium
+	#class remove italy
+	#class add kazakhstan
+		> Almaty
+			| class medium
+		> Astana
+			| class medium capital
+		> Shymkent
+			| class medium
+	#class remove kazakhstan
+	#class add kosovo
+		> Pristina
+			| class small capital
+		> Prizren
+			| class small
+		> Urosevac
+			| class small
+	#class remove kosovo
+	#class add latvia
+		> Riga
+			| class medium capital
+		> Daugavpils
+			| class small
+		> Liepaja
+			| class small
+	#class remove latvia
+	#class add liechtenstein
+		> Schaan
+			| class small
+		> Vaduz
+			| class small capital
+		> Triesen
+			| class small
+	#class remove liechtenstein
+	#class add lithuania
+		> Vilnius
+			| class medium capital
+		> Kaunas
+			| class small
+		> Klaipeda
+			| class small
+	#class remove lithuania
+	#class add luxembourg
+		> Luxemburg
+			| class small capital
+		> Esch-Alzette
+			| class small
+		> Dudelange
+			| class small
+	#class remove luxembourg
+	#class add macedonia
+		> Skopje
+			| class small capital
+		> Kumanovo
+			| class small
+		> Bitola
+			| class small
+	#class remove macedonia
+	#class add malta
+		> Birkirkara
+			| class small
+		> Mosta
+			| class small
+		> Qormi
+			| class small
+	#class remove malta
+	#class add moldova
+		> Chisinau
+			| class medium capital
+		> Tiraspol
+			| class small
+		> BalTi
+			| class small
+	#class remove moldova
+	#class add monaco
+		> Monte Carlo
+			| class small
+		> La Condamine
+			| class small
+		> Fontvieille
+			| class small
+	#class remove monaco
+	#class add montenegro
+		> Podgorica
+			| class small capital
+		> Niksic
+			| class small
+		> Pljevlja
+			| class small
+	#class remove montenegro
+	#class add netherlands
+		> Amsterdam
+			| class medium capital
+		> Rotterdam
+			| class medium
+		> The Hague
+			| class medium
+	#class remove netherlands
+	#class add norway
+		> Oslo
+			| class medium capital
+		> Bergen
+			| class small
+		> Trondheim
+			| class small
+	#class remove norway
+	#class add poland
+		> Warsaw
+			| class medium capital
+		> Krakow
+			| class medium
+		> Lodz
+			| class medium
+	#class remove poland
+	#class add portugal
+		> Lisbon
+			| class medium capital
+		> Vila Nova de Gaia
+			| class small
+		> Porto
+			| class small
+	#class remove portugal
+	#class add romania
+		> Bucharest
+			| class medium capital
+		> Cluj-Napoca
+			| class small
+		> Iasi
+			| class small
+	#class remove romania
+	#class add russia
+		> Moscow
+			| class large capital
+		> Saint Petersburg
+			| class medium
+		> Novosibirsk
+			| class medium
+	#class remove russia
+	#class add san_marino
+		> Serravalle
+			| class small
+		> Borgo Maggiore
+			| class small
+		> San Marino
+			| class small capital
+	#class remove san_marino
+	#class add serbia
+		> Belgrade
+			| class medium capital
+		> Novi Sad
+			| class small
+		> Nis
+			| class small
+	#class remove serbia
+	#class add slovakia
+		> Bratislava
+			| class small capital
+		> Kosice
+			| class small
+		> Presov
+			| class small
+	#class remove slovakia
+	#class add slovenia
+		> Ljubljana
+			| class small capital
+		> Maribor
+			| class small
+		> Celje
+			| class small
+	#class remove slovenia
+	#class add spain
+		> Madrid
+			| class medium capital
+		> Barcelona
+			| class medium
+		> Valencia
+			| class medium
+	#class remove spain
+	#class add sweden
+		> Stockholm
+			| class medium capital
+		> Göteborg
+			| class medium
+		> Malmö
+			| class small
+	#class remove sweden
+	#class add switzerland
+		> Zurich
+			| class small
+		> Geneva
+			| class small
+		> Basel
+			| class small
+	#class remove switzerland
+	#class add turkey
+		> Istanbul
+			| class large
+		> Ankara
+			| class medium capital
+		> Izmir
+			| class medium
+	#class remove turkey
+	#class add ukraine
+		> Kyiv
+			| class medium capital
+		> Kharkiv
+			| class medium
+		> Dnipropetrovsk
+			| class medium
+	#class remove ukraine
+	#class add united_kingdom
+		> London
+			| class large capital
+		> Birmingham
+			| class medium
+		> Leeds
+			| class medium
+	#class remove united_kingdom
+	#class add vatican_city
+		> Vatican City
+			| class small capital
+	#class remove vatican_city
+#class remove europe
+
+#class add asia
+	#class add afghanistan
+		> Kabul
+			| class medium capital
+		> Qandahar
+			| class small
+		> Mazar-e Sarif
+			| class small
+	#class remove afghanistan
+	#class add armenia
+		> Yerevan
+			| class medium capital
+		> Gyumri
+			| class small
+		> Vanadzor
+			| class small
+	#class remove armenia
+	#class add azerbaijan
+		> Baku
+			| class medium capital
+		> Ganca
+			| class small
+		> Sumqayit
+			| class small
+	#class remove azerbaijan
+	#class add bahrain
+		> Manama
+			| class small capital
+		> al-Muharraq
+			| class small
+		> ar-Rifaa
+			| class small
+	#class remove bahrain
+	#class add bangladesh
+		> Dhaka
+			| class large capital
+		> Chittagong
+			| class medium
+		> Khulna
+			| class medium
+	#class remove bangladesh
+	#class add bhutan
+		> Thimphu
+			| class small capital
+		> Phuentsholing
+			| class small
+		> Gelaphu
+			| class small
+	#class remove bhutan
+	#class add brueni
+		> Bandar Seri Begawan
+			| class small capital
+		> Kuala Belait
+			| class small
+		> Seria
+			| class small
+	#class remove brunei
+	#class add cambodia
+		> Phnum Penh
+			| class medium capital
+		> Preah Sihanouk
+			| class small
+		> Bat Dambang
+			| class small
+	#class remove cambodia
+	#class add china
+		> Shanghai
+			| class large
+		> Beijing
+			| class large capital
+		> Zhoukou
+			| class large
+	#class remove china
+	#class add cyprus
+		> Nicosia
+			| class small capital
+		> Lemesos
+			| class small
+		> Larnaca
+			| class small
+	#class remove cyprus
+	#class add georgia
+		> Atlanta
+			| class small
+		> Augusta
+			| class small
+		> Columbus
+			| class small
+	#class remove georgia
+	#class add india
+		> Mumbai
+			| class large
+		> Delhi
+			| class large
+		> Bengaluru
+			| class medium
+	#class remove india
+	#class add indonesia
+		> Jakarta
+			| class large capital
+		> Surabaya
+			| class medium
+		> Bandung
+			| class medium
+	#class remove indonesia
+	#class add iran
+		> Tehran
+			| class large capital
+		> Mashhad
+			| class medium
+		> Isfahan
+			| class medium
+	#class remove iran
+	#class add iraq
+		> Baghdad
+			| class large capital
+		> al-Mawsil
+			| class medium
+		> al-Basrah
+			| class medium
+	#class remove iraq
+	#class add israel
+		> Jerusalem
+			| class medium capital
+		> Tel Aviv
+			| class small
+		> Haifa
+			| class small
+	#class remove israel
+	#class add japan
+		> Tokyo
+			| class large capital
+		> Yokohama
+			| class medium
+		> Osaka
+			| class medium
+	#class remove japan
+	#class add jordan
+		> Amman
+			| class medium capital
+		> az-Zarqa
+			| class small
+		> Irbid
+			| class small
+	#class remove jordan
+	#class add kazakhstan
+		> Almaty
+			| class medium
+		> Astana
+			| class medium capital
+		> Shymkent
+			| class medium
+	#class remove kazakhstan
+	#class add kuwait
+		> Jalib as-Suyuh
+			| class small
+		> as-Salimiyah
+			| class small
+		> Subbah-as-Salim
+			| class small
+	#class remove kuwait
+	#class add kyrgyzstan
+		> Bishkek
+			| class medium capital
+		> Os
+			| class small
+		> Celalabad
+			| class small
+	#class remove kyrgyzstan
+	#class add laos
+		> Vientiane
+			| class small capital
+		> Pakxe
+			| class small
+		> Savannakhet
+			| class small
+	#class remove laos
+	#class add lebanon
+		> Beirut
+			| class medium capital
+		> Trâblous
+			| class small
+		> Sayda
+			| class small
+	#class remove lebanon
+	#class add malaysia
+		> Kuala Lumpur
+			| class medium capital
+		> Klang
+			| class medium
+		> Subang Jaya
+			| class medium
+	#class remove malaysia
+	#class add maldives
+		> Male
+			| class small capital
+		> Hithadhoo
+			| class small
+		> Fuvammulah
+			| class small
+	#class remove maldives
+	#class add mongolia
+		> Ulaanbaatar
+			| class medium capital
+		> Erdenet
+			| class small
+		> Darhan
+			| class small
+	#class remove mongolia
+	#class add myanmar
+		> Rangoon
+			| class medium
+		> Mandalay
+			| class medium
+		> Mawlamyine
+			| class small
+	#class remove myanmar
+	#class add nepal
+		> Kathmandu
+			| class medium capital
+		> Pokhara
+			| class small
+		> Lalitpur
+			| class small
+	#class remove nepal
+	#class add north_korea
+		> Pyongyang
+			| class medium capital
+		> Hamhung
+			| class medium
+		> Nampo
+			| class small
+	#class remove north_korea
+	#class add oman
+		> as-Sib
+			| class small
+		> Bawsar
+			| class small
+		> Salalah
+			| class small
+	#class remove oman
+	#class add pakistan
+		> Karachi
+			| class large
+		> Lahore
+			| class large
+		> Faisalabad
+			| class medium
+	#class remove pakistan
+	#class add palestine
+		> Hebron
+			| class small
+		> Nablus
+			| class small
+		> Tulkarm
+			| class small
+	#class remove palestine
+	#class add philippines
+		> Manila
+			| class medium capital
+		> Cebu City
+			| class medium
+		> Davao
+			| class medium
+	#class remove philippines
+	#class add qatar
+		> Doha
+			| class small capital
+		> ar-Rayyan
+			| class small
+		> Umm Salal
+			| class small
+	#class remove qatar
+	#class add russia
+		> Moscow
+			| class large capital
+		> Saint Petersburg
+			| class medium
+		> Novosibirsk
+			| class medium
+	#class remove russia
+	#class add saudia_arabia
+		> Riyadh
+			| class large capital
+		> Jiddah
+			| class medium
+		> Makkah
+			| class medium
+	#class remove saudia_arabia
+	#class add singapore
+		> Singapore
+			| class medium capital
+	#class remove singapore
+	#class add south_korea
+		> Seoul
+			| class large capital
+		> Incheon
+			| class medium
+	#class remove south_korea
+	#class add sri_lanka
+		> Colombo
+			| class medium capital
+		> Dehiwala-Mount Lavinia
+			| class small
+		> Moratuwa
+			| class small
+	#class remove sri_lanka
+	#class add syria
+		> Aleppo
+			| class medium
+		> Damascus
+			| class medium capital
+		> Hims
+			| class medium
+	#class remove syria
+	#class add taiwan
+		> Taipei City
+			| class medium capital
+		> Kaohsiung
+			| class medium
+		> Taichung
+			| class medium
+	#class remove taiwan
+	#class add tajikistan
+		> Dushanbe
+			| class medium capital
+		> Khujand
+			| class small
+		> Kulob
+			| class small
+	#class remove tajikistan
+	#class add thailand
+		> Bangkok
+			| class large capital
+		> Samut Prakan
+			| class small
+		> Nonthaburi
+			| class small
+	#class remove thailand
+	#class add timor-leste
+		> Dili
+			| class small capital
+		> Dare
+			| class small
+		> Los Palos
+			| class small
+	#class remove timor-leste
+	#class add turkey
+		> Istanbul
+			| class large
+		> Ankara
+			| class medium capital
+		> Izmir
+			| class medium
+	#class remove turkey
+	#class add turkmenistan
+		> Ashgabat
+			| class medium capital
+		> Turkmenabat
+			| class small
+		> Dasoguz
+			| class small
+	#class remove turkmenistan
+	#class add united_arab_emirates
+		> Dubai
+			| class medium
+		> Sharjah
+			| class medium
+		> Abu Dhabi
+			| class medium capital
+	#class remove united_arab_emirates
+	#class add uzbekistan
+		> Tashkent
+			| class medium capital
+		> Namangan
+			| class small
+		> Samarkand
+			| class small
+	#class remove uzbekistan
+	#class add vietnam
+		> Ho Chi Minh City
+			| class large
+		> Hanoi
+			| class medium capital
+		> Hai Phong
+			| class medium
+	#class remove vietnam
+	#class add yemen
+		> Sana
+			| class medium capital
+		> al-Hudaydah
+			| class medium
+		> Taizz
+			| class medium
+	#class remove yemen
+#class remove asia
+
+#class add oceania
+	#class add australia
+		> Sydney
+			| class medium
+		> Melbourne
+			| class medium
+		> Brisbane
+			| class medium
+	#class remove australia
+	#class add fiji
+		> Suva
+			| class small capital
+		> Lautoka
+			| class small
+		> Nausori
+			| class small
+	#class remove fiji
+	#class add kiribati
+		> Bairiki
+			| class small capital
+		> Taburao
+			| class small
+		> Bonriki
+			| class small
+	#class remove kiribati
+	#class add marshall_islands
+		> Rita
+			| class small capital
+		> Ebeye
+			| class small
+		> Laura
+			| class small
+	#class remove marshall_islands
+	#class add micronesia
+		> Weno
+			| class small
+		> Kitti
+			| class small
+		> Tol
+			| class small
+	#class remove micronesia
+	#class add nauru
+		> Yaren
+			| class small capital
+	#class remove nauru
+	#class add new_zealand
+		> Auckland
+			| class small
+		> Christchurch
+			| class small
+		> Wellington
+			| class small capital
+	#class remove new_zealand
+	#class add palau
+		> Koror
+			| class small
+		> Meyungs
+			| class small
+		> Airai
+			| class small
+	#class remove palau
+	#class add papua_new_guinea
+		> Port Moresby
+			| class small capital
+		> Lae
+			| class small
+		> Arawa
+			| class small
+	#class remove papua_new_guinea
+	#class add samoa
+		> Apia
+			| class small capital
+		> Vaitele
+			| class small
+		> Faleasiu
+			| class small
+	#class remove samoa
+	#class add solomon_islands
+		> Honiara
+			| class small capital
+		> Gizo
+			| class small
+		> Auki
+			| class small
+	#class remove solomon_islands
+	#class add tonga
+		> Nukualofa
+			| class small capital
+		> Mua
+			| class small
+		> Neiafu
+			| class small
+	#class remove tonga
+	#class add tuvalu
+		> Vaiaku
+			| class small capital
+		> Asau
+			| class small
+		> Lolua
+			| class small
+	#class remove tuvalu
+	#class add vanuatu
+		> Vila
+			| class small capital
+		> Luganville
+			| class small
+		> Norsup
+			| class small
+	#class remove vanuatu
+#class remove oceania
