@@ -690,7 +690,7 @@
 			| class small capital
 		> Los Angeles
 			| class medium
-	#class remove guatemala
+	#class remove united_states
 #class remove north_america
 
 #class add europe
