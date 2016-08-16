@@ -2,8 +2,20 @@
 #name substance
 #subs default
 
+#class add gas
+  > air
+  > steam
+  > smoke
+  > mustard gas
+  > oxygen
+  > nitrous oxide
+  > helium
+  > neon
+#class remove gas
+
 #class add liquid
   > acid
+  > bile
   > bleach
   > blood
   > diarrhea
@@ -12,37 +24,74 @@
   > grease
   > ink
   > lava
-  > liquid nitrogen
   > magma
-  > molten iron
   > oil
+  > ooze
   > paint
   > plasma
+  > pus
   > rain
   > saliva
   > sap
+  > sewage
+  > shampoo
+  > shaving foam
   > slime
-  > soy sauce
+  > slop
+  > snot
+  > soap
   > sweat
   > tar
   > tears
   > urine
   > vomit
   #class add edible
-    > beer
+    #class add alcohol
+      > absinthe
+      > ale
+      > beer
+      > bitter
+      > bourbon
+      > brandy
+      > cider
+      > cognac
+      > drambuie
+      > everclear
+      > gin
+      > lager
+      > mead
+      > mezcal
+      > ouzo
+      > pale ale
+      > rakı
+      > rum
+      > sake
+      > stout
+      > tequila
+      > vodka
+      > whisky
+      > wine
+    #class remove alcohol
+    #class add juice
+      > apple juice
+      > clamato
+      > orange juice
+      > prune juice
+      > tomato juice
+    #class remove juice
+    > cream
     > extra-virgin olive oil
     > guacamole
     > ketchup
     > lemonade
     > mayonnaise
+    > milk
     > mustard
     > olive oil
-    > orange juice
+    > soy sauce
     > tomato sauce
     > vinegar
-    > vodka
     > water
-    > wine
   #class remove edible
 #class remove liquid
 
@@ -65,27 +114,76 @@
 #class add solid
   > antimatter
   > cement
-  > earwax/earwax
+  > earwax
   > dark matter
   > grass
   > manure
   > sand
   > snow
-  > dynamite/dynamites
+  > dynamite
   #class add edible
-    > bread/bread
+    > bread
+    > cereal
+    > cheese
+    > chocolate
     > corn
     > flour
-    > fudge/fudge
+    > fudge
+    > gruel
+    > macaroni
     > meatloaf
+    > pasta
+    > pie
+    > porridge
     > rice
     > spaghetti
     > spinach
+    > stew
+    > toast
+    > toffee
     > oatmeal
   #class remove edible
+  #class add metal
+    > metal
+    > iron
+    > copper
+    > silver
+    > gold
+    > zinc
+    > titanium
+    > steel
+    > brass
+    > platinum
+    > aluminium
+  #class remove metal
+  #class add wood
+    #class add softwood
+      > cedar
+      > larch
+      > pine
+    #class remove softwood
+    #class add hardwood
+      > alder
+      > ash
+      > balsa
+      > birch
+      > cherry
+      > elm
+      > hickory
+      > ironwood
+      > mahogany
+      > maple
+      > oak
+      > poplar
+      > teak
+      > walnut
+      > willow
+    #class remove hardwood
+  #class remove wood
 #class remove solid
 
-> money 
+> money
+> cash
 
 #nsfw
 > dick cheese
