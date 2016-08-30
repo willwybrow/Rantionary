@@ -7,7 +7,7 @@
   > ethnicity/more ethnic/less ethnic/most ethnic/least ethnic/ethnic
   > honesty/more truthful/less truthful/most truthful/least truthful/honest
   > sexiness/sexier/less sexy/sexiest/unsexiest/sexy
-  > race/racier/less racy/raciest/least racy/racy
+  > raciness/racier/less racy/raciest/least racy/racy
 #class remove human
 
 #class add physical
