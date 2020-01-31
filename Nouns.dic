@@ -340,6 +340,10 @@
     > watermelon/watermelons
   #class remove fruit
 
+  #class add meat
+    > tofu/tofu
+  #class remove meat
+
   > almond/almonds
   > biscuit/biscuits
   > cornflake/cornflakes
