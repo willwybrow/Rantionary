@@ -44,6 +44,7 @@
   > snort/snorting/snorted/snorts/snorter/snorted/snorting
   > slurp/slurping/slurped/slurps/slurper/slurped/slurping
   > swallow/swallowing/swallowed/swallows/swallower/swallowed/swallowing
+  > taste/tasting/tasted/tastes/taster/tasted/tasting
 #class remove eat
 
 #class add like
@@ -87,6 +88,8 @@
 
 #class add culinary
   #class add preparation
+    > batter/battering/battered/batters/batterer/battered/battering
+    > beat/beating/beat/beats/beater/beaten/beating
     > cure/curing/cured/cures/curer/cured/curing
     > jerk/jerking/jerked/jerks/jerker/jerked/jerking
     > knead/kneading/kneaded/kneads/kneader/kneaded/kneading
@@ -94,9 +97,12 @@
     > salt/salting/salted/salts/salter/salted/salting
     > stir/stirring/stirred/stirs/stirrer/stirred/stirring
     > strain/straining/strained/strains/strainer/strained/straining
+    > temper/tempering/tempered/tempers/temperer/tempered/tempering
+    > tenderise/tenderising/tenderised/tenderises/tenderiser/tenderised/tenderising
     #class add instrument
       > chop/chopping/chopped/chops/chopper/chopped/chopping
       > dice/dicing/diced/dices/dicer/diced/dicing
+      > julienne/julienning/julienned/juliennes/julienner/julienned/julienning
       > grate/grating/grated/grates/grater/grated/grating
       > marinate/marinating/marinated/marinates/marinater/marinated/marination
       > season/seasoning/seasoned/seasons/seasoner/seasoned/seasoning
@@ -105,12 +111,17 @@
   #class add cooking
     > bake/baking/baked/bakes/baker/baked/baking
     > barbeque/barbequing/barbequed/barbeques/barbequer/barbequed/barbequing
+    > blanch/blanching/blanched/blanches/blancher/blanched/blanching
     > boil/boiling/boiled/boils/boiler/boiled/boiling
+    > braise/braising/braised/braises/braiser/braised/braising
     > broil/broiling/broiled/broils/broiler/broiled/broiling
+    > caramelise/caramelising/caramelised/caramelises/carameliser/caramelised/caramelising
     > cook/cooking/cooked/cooks/cooker/cooked/cooking
     > deep-fry/deep-frying/deep-fried/deep-fries/deep-frier/deep-fried/deep-frying
     > fry/frying/fried/fries/frier/fried/frying
     > grill/grilling/grilled/grills/griller/grilled/grilling
+    > sauté/sautéing/sautéd/sautés/sautéer/sautéd/sautéing
+    > sous-vide/sous-viding/sous-vided/sous-vider/sous-vided/sous-viding
     > smoke/smoking/smoked/smokes/smoker/smoked/smoking
     > stew/stewing/stewed/stews/stewer/stewed/stewing
     > toast/toasting/toasted/toasts/toaster/toasted/toasting

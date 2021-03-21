@@ -46,6 +46,7 @@
   > urine
   > vomit
   #class add edible
+    > aioli
     #class add alcohol
       > absinthe
       > ale
@@ -72,6 +73,8 @@
       > whisky
       > wine
     #class remove alcohol
+    > béarnaise
+    > buttermilk
     #class add juice
       > apple juice
       > clamato
@@ -80,8 +83,9 @@
       > tomato juice
     #class remove juice
     > cream
-    > extra-virgin olive oil
+    > crème fraîche
     > guacamole
+    > hollandaise
     > ketchup
     > lemonade
     > mayonnaise
@@ -96,19 +100,30 @@
 #class remove liquid
 
 #class add drug
+  > alcohol
+  > angel dust
   > bath salts
+  > caffeine
+  > cannabis
   > cocaine
   > crack
   > extacy
   > heroin
+  > ibuprofen
+  > kratom
   > krokodil
   > LSD
   > marijuana
   > MDMA
   > mescaline
   > meth
+  > paracetemol
   > PCP
+  > skunk
   > smack
+  > spice
+  > synthetic cannabinoids
+  > weed
 #class remove drug
 
 #class add solid
@@ -123,21 +138,101 @@
   > dynamite
   #class add edible
     > bread
-    > cereal
-    > cheese
+    > cake
+    > calamari
+    > caramel
+    #class add cereal
+      > cereal
+      > barley
+      > wheat
+    #class remove cereal
+    #class add cheese
+      > cheese
+      > brie
+      > cream cheese
+      > cambembert
+      > blue cheese
+      > manchego
+      > edam
+      > mozzarella
+      > parmesan
+      > emmental
+      > stilton
+      > comté
+      > gruyère
+      > ricotta
+      > raclette
+      > gouda
+      > paneer
+      > bergkäse
+      > halloumi
+      > cheddar
+      > red leicester
+      > shropshire blue
+      > feta
+      > jarlsberg
+      > muenster
+      > monterey jack
+      > provolone
+      > cottage cheese
+      > gorgonzola
+      > grana padano
+      > mascarpone
+      > pecorino
+    #class remove cheese
     > chocolate
     > corn
+    > cornflour
+    > cumin
+    #class add fish
+      > fish
+      > cod
+      > haddock
+      > hake
+      > basa
+      > bass
+      > barramundi
+      > salmon
+      > tuna
+      > snapper
+      > whitebait
+      > monkfish
+    #class remove fish
     > flour
     > fudge
+    > garlic
     > gruel
     > macaroni
-    > meatloaf
+    > mash
+    > mashed potato
+    #class add meat
+      > meat
+      > beef
+      > pork
+      > shrimp
+      > scampi
+      > goat
+      > meatloaf
+      #class add poultry
+        > poultry
+        > chicken
+        > duck
+        > quail
+        > pheasant
+        > pigeon
+        > turkey
+      #class remove poultry
+    #class remove meat
     > pasta
     > pie
     > porridge
+    > polenta
+    > purée
     > rice
+    > rocket
     > spaghetti
     > spinach
+    > squid
     > stew
     > toast
     > toffee

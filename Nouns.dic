@@ -320,9 +320,10 @@
   #class add fruit
     > apple/apples
     > apricot/apricots
+    > banana/bananas
     > blueberry/blueberries
     > coconut/coconuts
-    > grape/grapes
+    > date/dates
     > grape/grapes
     > grapefruit/grapefruits
     > kiwi/kiwis
@@ -333,23 +334,75 @@
     > orange/oranges
     > pineapple/pineapples
     > prune/prunes
+    > raisin/raisins
     > raspberry/raspberries
     > strawberry/strawberries
     > tangerine/tangerines
-    > tomato/tomatoes
     > watermelon/watermelons
   #class remove fruit
 
-  > almond/almonds
+  #class add nuts
+    > almond/almonds
+    > hazelnut/hazelnuts
+    > peanut/peanuts
+    > walnut/walnuts
+  #class remove nuts
+
+  #class add seafood
+    > scallop/scallops
+    > prawn/prawns
+  #class remove seafood
+
+  #class add vegetable
+    > artichoke/artichokes
+    > aubergine/aubergines
+    > carrot/carrots
+    > onion/onions
+      | class aromatic
+    > pepper/peppers
+    > potato/potatoes
+    > plantain/plantains
+    > spring onion/spring onions
+      | class aromatic
+    > sweet potato/sweet potatoes
+    > tomato/tomatoes
+    > yam/yams
+  #class remove vegetable
+
+  #class add herb
+    > chive/chives
+  #class remove herb
+
+  #class add spice
+    > cardamom pod/cardamom pods
+    > clove/cloves
+    > peppercorn/peppercorns
+  #class remove spice
+
+  #class add confectionery
+    > bonbon/bonbons
+    > marshmallow/marshmallows
+  #class remove confectionery
+
+  #class add dish
+    > salad/salads
+    > steak/steaks
+    > roulade/roulades
+    > schnitzel/schnitzels
+    > pie/pies
+    > pizza/pizzas
+    > purée/purées
+    > raviolo/ravioli
+    > enchilada/enchiladas
+    > dumpling/dumplings
+  #class remove dish
+
   > biscuit/biscuits
+  > cookie/cookies
   > cornflake/cornflakes
-  > hazelnut/hazelnuts
-  > marshmallow/marshmallows
-  > onion/onions
-  > peanut/peanuts
-  > potato/potatoes
   > pretzel/pretzels
-  > walnut/walnuts
+  > waffle/waffles
+
 #class remove food
 
 #class add furniture
