@@ -230,6 +230,8 @@
   > finger/fingers
   > gallbladder/gallbladders
   > goatee/goatees
+  > hair/hairs
+  > hairline/hairlines
   > head/heads
   > heart/hearts
   > horn/horns
@@ -263,6 +265,15 @@
   > unibrow/unibrows
   > uvula/uvulas
   > whisker/whiskers
+  > anus/anuses
+  > sphincter/sphincters
+  > foreskin/foreskins
+  > testicle/testicles
+  > scrotum/scrotums
+  > pube/pubes
+  > penis/penises
+  > vagina/vaginas
+  > vulva/vulvae
 #class remove body
 
 #class add container
@@ -323,6 +334,7 @@
     > banana/bananas
     > blueberry/blueberries
     > coconut/coconuts
+    > currant/currants
     > date/dates
     > grape/grapes
     > grapefruit/grapefruits
@@ -337,6 +349,7 @@
     > raisin/raisins
     > raspberry/raspberries
     > strawberry/strawberries
+    > sultana/sultanas
     > tangerine/tangerines
     > watermelon/watermelons
   #class remove fruit
@@ -349,22 +362,29 @@
   #class remove nuts
 
   #class add seafood
-    > scallop/scallops
+    > crayfish/crayfish
+    > lobster/lobsters
     > prawn/prawns
+    > scallop/scallops
   #class remove seafood
 
   #class add vegetable
     > artichoke/artichokes
     > aubergine/aubergines
+    > brussels sprout/brussels sprouts
     > carrot/carrots
+    > leek/leeks
     > onion/onions
       | class aromatic
+    > parsnip/parsnips
     > pepper/peppers
     > potato/potatoes
     > plantain/plantains
+    > radish/radishes
     > spring onion/spring onions
       | class aromatic
     > sweet potato/sweet potatoes
+    > turnip/turnips
     > tomato/tomatoes
     > yam/yams
   #class remove vegetable
@@ -477,63 +497,97 @@
 #class remove instrument
 
 #class add job
+  > administrator/administrators
   > accountant/accountants
+  > acrobat/acrobats
   > actor/actors
+  > agent/agents
+  > alchemist/alchemists
   > archaeologist/archaeologists
   > armorer/armorers
   > artist/artists
   > assassin/assassins
   > athlete/athletes
+  > attorney/attorneys
+  > attorney general/attorneys general
   > babysitter/babysitters
   > bachelor/bachelors
   > banker/bankers
   > bartender/bartenders
+  > bellringer/bellringers
   > biologist/biologists
+  > blacksmith/blacksmiths
   > burglar/burglars
   > butler/butlers
+  > carer/carers
   > carpenter/carpenters
   > celebrity/celebrities
+  > cheesemaker/cheesemakers
   > chef/chefs
+  > chemist/chemists
   > circus performer/circus performers
+  > cleaner/cleaners
+  > cleric/clerics
   > clown/clowns
+  > comedian/comedians
   > constable/constables
   > construction worker/construction workers
+  > cook/cooks
   > cop/cops
   > dentist/dentists
   > doctor/doctors
+  > driver/drivers
+  > engineer/engineers
+  > executioner/executioners
+  > executive/executives
   > explorer/explorers
+  > farmer/farmers
+  > farrier/farriers
   > FBI agent/FBI agents
-  > fireman/firemen
+  > firefighter/firefighters
   > fortune teller/fortune tellers
+  > footballer/footballers
   > gambler/gamblers
+  > gameshow host/gameshow hosts
   > gangster/gangsters
+  > goldsmith/goldsmiths
   > golfer/golfers
+  > groundskeeper/groundskeepers
   > guitarist/guitarists
   > haberdasher/haberdashers
   > hippie/hippies
-  > hobbit/hobbits
   > hunter/hunters
   > journalist/journalists
+  > judge/judges
   > juggler/jugglers
   > lawyer/lawyers
+  > lecturer/lecturers
   > magician/magicians
   > mailman/mailmen
   > mechanic/mechanics
-  > movie star/movie stars
+  > mediator/mediators
+  > monarch/monarchs
+  > narrator/narrators
   > ninja/ninjas
   > nurse/nurses
+  > olympian/olympians
+  > paladin/paladins
   > paramedic/paramedics
+  > pastry chef/pastry chefs
   > physician/physicians
   > pianist/pianists
+  > pilot/pilots
   > pirate/pirates
   > plumber/plumbers
-  > policeman/policemen
+  > police officer/police officers
   > politician/politicians
   > pope/popes
   > president/presidents
   > prince/princes
   > princess/princesses
   > principal/principals
+  > proctologist/proctologists
+  > professor/professors
   > rapper/rappers
   > reporter/reporters
   > salesman/salesmen
@@ -543,9 +597,14 @@
   > singer/singers
   > sky diver/sky divers
   > snake charmer/snake charmers
+  > solicitor/solicitors
+  > sommelier/sommeliers
   > spelunker/spelunkers
+  > spy/spies
   > stock broker/stock brokers
+  > student/students
   > surgeon/surgeons
+  > tailor/tailors
   > tanner/tanners
   > taxidermist/taxidermists
   > teacher/teachers
@@ -553,7 +612,10 @@
   > vampire/vampires
   > waiter/waiters
   > waitress/waitresses
+  > warden/wardens
+  > warrior/warriors
   > wizard/wizards
+  > zookeeper/zookeepers
 #class remove job
 
 #class add liquid
@@ -754,10 +816,12 @@
 #class remove vehicle
 
 #class add weapon
+  > battering ram/battering rams
   > brick/bricks
   > bullet/bullets
   > cleat/cleats
   > dagger/daggers
+  > gun/guns
   > horsewhip/horsewhips
   > lampstand/lampstands
   > musket/muskets
@@ -793,13 +857,13 @@
 > chicken wing/chicken wings
 > clock/clocks
 > cocktail/cocktails
-> Communist/Communists
+> communist/communists
 > constitution/constitutions
 > cork/corks
 > cramp/cramps
 > credit card/credit cards
 > cuckoo/cuckoos
-> Democrat/Democrats
+> democrat/democrats
 > diaper/diapers
 > dictionary/dictionaries
 > dime/dimes
@@ -863,10 +927,8 @@
 > puppet/puppets
 > pylon/pylons
 > rabies/rabies
-> radish/radishes
 > ragamuffin/ragamuffins
-> raisin/raisins
-> Republican/Republicans
+> republican/republicans
 > ridge/ridges
 > rock/rocks
 > rotisserie/rotisseries
@@ -904,26 +966,13 @@
 > zygote/zygotes
 
 #nsfw
-> battering ram/battering rams
-> cuntrocket/cuntrockets
 > micropenis/micropenises
-> cuntwaffle/cuntwaffles
-> blue waffle/blue waffles
 > dildo/dildos
-> double dildo/double dildos
-> dinocock/dinococks
 > pussy/pussies
-> vagflap/vagflaps
-> cuntflap/cuntflaps
 > cunt/cunts
-> anus/anuses
-> sphincter/sphincters
 > tit/tits
 > taint/taints
-> foreskin/foreskins
 > nipple clamp/nipple clamps
-> goatse/goatses
-> panties/panties
 > thong/thongs
 > shit/shits
 > boob/boobs
@@ -934,13 +983,7 @@
 > cock/cocks
 > asshole/assholes
 > ballsack/ballsacks
-> testicle/testicles
-> scrotum/scrotums
-> pube/pubes
-> penis/penises
-> vagina/vaginas
 > pussy/pussies
-> yeast/yeast infections
 > poop/poops
 > motherfucker/motherfuckers
 > bitch/bitches

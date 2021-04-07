@@ -82,6 +82,7 @@
       > prune juice
       > tomato juice
     #class remove juice
+    > consommé
     > cream
     > crème fraîche
     > guacamole
@@ -91,7 +92,14 @@
     > mayonnaise
     > milk
     > mustard
-    > olive oil
+    #class add oil
+      > avocado oil
+      > canola oil
+      > groundnut oil
+      > olive oil
+      > vegetable oil
+    #class remove oil
+    > soup
     > soy sauce
     > tomato sauce
     > vinegar
@@ -135,9 +143,12 @@
   > manure
   > sand
   > snow
+  > trash
+  > recycling
   > dynamite
   #class add edible
     > bread
+    > broccoli
     > cake
     > calamari
     > caramel
@@ -146,6 +157,8 @@
       > barley
       > wheat
     #class remove cereal
+    > celeriac
+    > celery
     #class add cheese
       > cheese
       > brie
@@ -202,6 +215,9 @@
     > fudge
     > garlic
     > gruel
+    > harissa
+    > ice cream
+    > kale
     > macaroni
     > mash
     > mashed potato
@@ -212,7 +228,13 @@
       > shrimp
       > scampi
       > goat
+      > lamb
+      > hogget
+      > mutton
+      > kangaroo
+      > alligator
       > meatloaf
+      > offal
       #class add poultry
         > poultry
         > chicken
@@ -221,6 +243,9 @@
         > pheasant
         > pigeon
         > turkey
+        > squab
+        > ostrich
+        > guineafowl
       #class remove poultry
     #class remove meat
     > pasta
@@ -230,6 +255,8 @@
     > purée
     > rice
     > rocket
+    > salsify
+    > sorbet
     > spaghetti
     > spinach
     > squid
