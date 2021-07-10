@@ -717,13 +717,35 @@
 #class remove plant
 
 #class add shape
-  > circle/circles
-  > hexagon/hexagons
-  > oval/ovals
-  > polyhedrons/polyedra
-  > rectangle/rectangles
-  > square/squares
-  > triangle/triangles
+  #class add 2d
+    > circle/circles
+    > hexagon/hexagons
+    > oval/ovals
+    > rectangle/rectangles
+    > square/squares
+    > triangle/triangles
+    > polygon/polygons
+    > heptagon/heptagons
+    > septagon/septagons
+    > octagon/octagons
+    > nonagon/nonagons
+    > decagon/decagons
+    > dodecagon/dodecagons
+    > ellipse/ellipses
+    > star/stars
+    > rhombus/rhombi
+    > quadrilateral/quadrilaterals
+  #class remove 2d
+  #class add 3d
+    > sphere/spheres
+    > spheroid/spheroids
+    > prism/prisms
+    > polyhedrons/polyedra
+    > tetrahedron/tetrahedra
+    > cube/cubes
+    > cuboid/cuboids
+    > dodecahedron/dodecahedrons
+  #class remove 3d
 #class remove shape
 
 #class add surface
@@ -964,6 +986,14 @@
 > wool/wool
 > wrinkle/wrinkles
 > zygote/zygotes
+
+#class add infrastructure
+  > bridge/bridges
+  > road/roads
+  > railway/railways
+  > building/buildings
+  > hospital/hospitals
+#class remove infrastructure
 
 #nsfw
 > micropenis/micropenises
